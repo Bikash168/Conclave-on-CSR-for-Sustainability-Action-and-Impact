@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const GuestDelegates = () => {
   const runningNgoImages = [
@@ -67,11 +66,7 @@ const GuestDelegates = () => {
       {/* NGO Images Section */}
       <section className="text-center">
         <h2 className="text-3xl font-bold mb-6">Running NGO Images</h2>
-        <motion.div
-          className="flex space-x-4 overflow-hidden"
-          animate={{ x: [0, -2000] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-        >
+        <div className="flex space-x-4 overflow-hidden animate-marquee">
           {runningNgoImages.map((src, index) => (
             <img
               key={index}
@@ -80,17 +75,13 @@ const GuestDelegates = () => {
               className="w-48 h-48 object-cover rounded-xl shadow-md"
             />
           ))}
-        </motion.div>
+        </div>
       </section>
 
       {/* Guest Delegates Section */}
       <section className="text-center">
         <h2 className="text-3xl font-bold mb-6">Running Guest Delegates</h2>
-        <motion.div
-          className="flex space-x-4 overflow-hidden"
-          animate={{ x: [0, -2000] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-        >
+        <div className="flex space-x-4 overflow-hidden animate-marquee">
           {guestData.map((guest, index) => (
             <div key={index} className="flex items-center space-x-4">
               <img
@@ -104,17 +95,13 @@ const GuestDelegates = () => {
               </div>
             </div>
           ))}
-        </motion.div>
+        </div>
       </section>
 
       {/* Organizing Committee Section */}
       <section className="text-center">
         <h2 className="text-3xl font-bold mb-6">Organizing Committee</h2>
-        <motion.div
-          className="flex space-x-4 overflow-hidden"
-          animate={{ x: [0, -2000] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-        >
+        <div className="flex space-x-4 overflow-hidden animate-marquee">
           {organizingCommittee.map((member, index) => (
             <div key={index} className="flex items-center space-x-4">
               <img
@@ -128,10 +115,8 @@ const GuestDelegates = () => {
               </div>
             </div>
           ))}
-        </motion.div>
+        </div>
       </section>
-
-      
     </div>
   );
 };
