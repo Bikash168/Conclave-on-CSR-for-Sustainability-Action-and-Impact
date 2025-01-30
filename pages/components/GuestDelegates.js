@@ -44,7 +44,7 @@ const GuestDelegates = () => {
       designation: "Principal, Trident Academy of Technology"
     },
     {
-      image: "/images/path-to-convener2.jpg",
+      image: "/images/path-to-convener2.png",
       name: "Prof. P. K. Mohanty",
       designation: "Dean, Department of Business Administration"
     },
