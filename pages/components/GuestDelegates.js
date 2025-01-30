@@ -63,20 +63,6 @@ const GuestDelegates = () => {
 
   return (
     <div className="container mx-auto p-6 space-y-12">
-      {/* NGO Images Section */}
-      <section className="text-center">
-        <h2 className="text-3xl font-bold mb-6">Running NGO Images</h2>
-        <div className="flex space-x-4 overflow-hidden animate-marquee">
-          {runningNgoImages.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt={`Running NGO ${index + 1}`}
-              className="w-48 h-48 object-cover rounded-xl shadow-md"
-            />
-          ))}
-        </div>
-      </section>
 
       {/* Guest Delegates Section */}
       <section className="text-center">
@@ -97,6 +83,23 @@ const GuestDelegates = () => {
           ))}
         </div>
       </section>
+      
+      {/* NGO Images Section */}
+      <section className="text-center">
+        <h2 className="text-3xl font-bold mb-6">Running NGO Images</h2>
+        <div className="flex space-x-4 overflow-hidden animate-marquee">
+          {runningNgoImages.map((src, index) => (
+            <img
+              key={index}
+              src={src}
+              alt={`Running NGO ${index + 1}`}
+              className="w-48 h-48 object-cover rounded-xl shadow-md"
+            />
+          ))}
+        </div>
+      </section>
+
+      
 
       {/* Organizing Committee Section */}
       <section className="text-center">
