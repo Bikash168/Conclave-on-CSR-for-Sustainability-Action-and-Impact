@@ -11,12 +11,11 @@ export default function Home() {
   return (
     <div className="text-gray-800">
       <Head>
-        <title>Trident Academy of Technology- Conclave on
-          CSR for Sustainability: Action and Impact
-        </title>
+        <title>Trident Academy of Technology- Conclave on CSR for Sustainability: Action and Impact</title>
         <meta name="description" content="Trident Group - Innovative Education for Future Leaders" />
       </Head>
 
+      {/* Navbar */}
       <NavBar />
 
       {/* Home Section with Event Carousel */}
@@ -25,29 +24,29 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="overflow-hidden">
+      <section id="about" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <About />
       </section>
 
-      {/* Courses Section */}
-      <section id="theme" className="overflow-hidden">
+      {/* Theme Section */}
+      <section id="theme" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <Theme />
       </section>
 
-      <section id="agenda" className="overflow-hidden">
+      {/* Agenda Section */}
+      <section id="agenda" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <Agenda />
       </section>
 
-      <section id="guestdelegates" className="overflow-hidden">
+      {/* Guest Delegates Section */}
+      <section id="guestdelegates" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <GuestDelegates />
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="overflow-hidden">
+      <section id="contact" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <Contact />
       </section>
-
-
     </div>
   );
 }
