@@ -15,7 +15,7 @@ const EventBanner = () => {
           Organizes Conclave on
         </p>
         <h3 className="text-xl sm:text-2xl font-bold mb-3 leading-tight">
-          CSR for Sustainability: Action and Impact
+          CSR for Sustainability: Action to Impact
         </h3>
         <p className="text-base sm:text-lg mb-4">On 8th & 9th February 2025</p>
         

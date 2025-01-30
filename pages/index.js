@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="text-gray-800">
       <Head>
-        <title>Trident Academy of Technology- Conclave on CSR for Sustainability: Action and Impact</title>
+        <title>Trident Academy of Technology- Conclave on CSR for Sustainability: Action to Impact</title>
         <meta name="description" content="Trident Group - Innovative Education for Future Leaders" />
       </Head>
 
