@@ -51,7 +51,7 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31144.175952423004!2d85.83170889999999!3d20.296059999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c7c05d6e1db7%3A0x4190e3de632915c8!2sTrident%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1663601596228!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7482.0614668432645!2d85.807754!3d20.340349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190902b2a59ce5%3A0xdfb554a4e0bafffb!2sTrident%20Academy%20of%20Technology!5e0!3m2!1sen!2sus!4v1738245957890!5m2!1sen!2sus"
             width="100%"
             height="300"
             style={{ border: 0 }}
@@ -60,7 +60,7 @@ const Contact = () => {
             className="rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
           ></iframe>
         </motion.div>
-
+        
         {/* Contact Information and Other Sections */}
         <motion.div
           className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
