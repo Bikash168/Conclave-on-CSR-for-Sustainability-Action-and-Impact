@@ -33,14 +33,14 @@ export default function Home() {
         <Theme />
       </section>
 
-      {/* Agenda Section */}
-      <section id="agenda" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
-        <Agenda />
-      </section>
-
       {/* Guest Delegates Section */}
       <section id="guestdelegates" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <GuestDelegates />
+      </section>
+
+      {/* Agenda Section */}
+      <section id="agenda" className="overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
+        <Agenda />
       </section>
 
       {/* Contact Section */}
