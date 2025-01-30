@@ -3,8 +3,9 @@ import NavBar from '../pages/components/NavBar'; // Adjusted import path
 import EventBanner from './components/EventBanner'; // Adjusted import path
 import About from '../pages/components/About'; // Adjusted import path
 import Theme from './components/Theme'; // Adjusted import path
-import Admissions from '../pages/components/Admissions'; // Adjusted import path
+import Agenda from '../pages/components/Agenda'; // Adjusted import path
 import Contact from '../pages/components/Contact'; // Adjusted import path
+import GuestDelegates from '../pages/components/GuestDelegates'; // Adjusted import path
 
 export default function Home() {
   return (
@@ -29,11 +30,17 @@ export default function Home() {
       </section>
 
       {/* Courses Section */}
-      <section id="courses" className="overflow-hidden">
+      <section id="theme" className="overflow-hidden">
         <Theme />
       </section>
 
-      
+      <section id="agenda" className="overflow-hidden">
+        <Agenda />
+      </section>
+
+      <section id="guestdelegates" className="overflow-hidden">
+        <GuestDelegates />
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="overflow-hidden">

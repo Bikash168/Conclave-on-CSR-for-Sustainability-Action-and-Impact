@@ -19,25 +19,9 @@ const Contact = () => {
                 {/* TGI Logo */}
                 <img src="/logo.png" alt="TGI Logo" className="mx-auto mb-6 w-48 md:w-60 transition-transform duration-300 transform hover:scale-110" />
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#316b9e] transition-all duration-300 hover:text-blue-700">Contact Us</h2>
-                <p className="text-base md:text-lg text-gray-700 mb-4">
-                    For more updates, share your email with us!
-                </p>
-                <form className="max-w-md mx-auto mb-8">
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        className="block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 mb-4"
-                    />
-                    <button
-                        type="submit"
-                        className="w-full bg-[#316b9e] text-white font-semibold py-2 rounded-md hover:bg-[#316b9e] transition duration-300"
-                    >
-                        Subscribe
-                    </button>
-                </form>
-
+                <h3 className="text-4xl md:text-5xl font-bold mb-6 text-[#316b9e] transition-all duration-300 hover:text-blue-700">Trident Academy of Technology</h3>
                 <div className="mt-12">
-                    <h3 className="text-2xl md:text-3xl text-[#316b9e] font-semibold mb-4">Our Location</h3>
+                 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31144.175952423004!2d85.83170889999999!3d20.296059999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c7c05d6e1db7%3A0x4190e3de632915c8!2sTrident%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1663601596228!5m2!1sen!2sin"
                         width="100%"
@@ -55,26 +39,35 @@ const Contact = () => {
                     <div className="text-left transition-transform duration-300 hover:scale-105">
                         <h3 className="text-2xl md:text-3xl text-[#316b9e] font-semibold mb-4">Contact Information</h3>
                         <address className="text-base md:text-lg text-gray-700 not-italic mb-6">
+                            <div className="mb-4">
+                                <strong>Further Details Contact:</strong>
+                                <br />
+                                Dr. Nargis Begum - <FaPhoneAlt className="inline-block text-gray-600" /> +91-9437300099
+                                <br />
+                                Dr. Diptimayee Sahoo - <FaPhoneAlt className="inline-block text-gray-600" /> +91-9438331744
+                            </div>
                             <div className="mb-1">
                                 <span>
-                                    Trident Group of Institutions,
+                                    Trident Academy of Technology,
                                     <br />
-                                    F2, Chandaka Industrial Estate,
+                                    F-2, Chandaka Industrial Estate,
                                     <br />
-                                    Technology Corridor, Infocity Area,
+                                    In front of Infocity,
                                     <br />
                                     Chandrasekharpur, Bhubaneswar,
                                     <br />
                                     Odisha, India. 751024
                                 </span>
                             </div>
-                            <div className="flex items-center mb-1">
-                                <FaPhoneAlt className="mr-1 text-gray-600 text-xl" /> {/* Increased size */}
-                                +91 98611 91195
-                            </div>
-                            <div className="flex items-center mb-1">
-                                <FaEnvelope className="mr-1 text-gray-600 text-xl" /> {/* Increased size */}
-                                info@trident.ac.in
+                            <div className="mb-1">
+                                <a
+                                    href="https://www.tat.ac.in"
+                                    className="text-blue-600 hover:underline"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    www.tat.ac.in
+                                </a>
                             </div>
                         </address>
                     </div>
@@ -120,22 +113,22 @@ const Contact = () => {
                     <h3 className="text-2xl md:text-3xl text-[#316b9e] font-semibold mb-4">Follow Us</h3>
                     <div className="flex justify-center space-x-4">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                            <FaFacebook className="text-blue-600 hover:text-blue-700 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaFacebook className="text-blue-600 hover:text-blue-700 transition duration-300 text-2xl" />
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                            <FaTwitter className="text-blue-400 hover:text-blue-500 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaTwitter className="text-blue-400 hover:text-blue-500 transition duration-300 text-2xl" />
                         </a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                            <FaInstagram className="text-blue-500 hover:text-blue-600 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaInstagram className="text-blue-500 hover:text-blue-600 transition duration-300 text-2xl" />
                         </a>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <FaLinkedin className="text-blue-600 hover:text-blue-700 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaLinkedin className="text-blue-600 hover:text-blue-700 transition duration-300 text-2xl" />
                         </a>
                         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                            <FaYoutube className="text-red-600 hover:text-red-700 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaYoutube className="text-red-600 hover:text-red-700 transition duration-300 text-2xl" />
                         </a>
                         <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                            <FaWhatsapp className="text-green-600 hover:text-green-700 transition duration-300 text-2xl" /> {/* Increased size */}
+                            <FaWhatsapp className="text-green-600 hover:text-green-700 transition duration-300 text-2xl" />
                         </a>
                     </div>
                 </div>
