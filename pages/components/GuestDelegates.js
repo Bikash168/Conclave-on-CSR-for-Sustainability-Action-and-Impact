@@ -10,17 +10,17 @@ const GuestDelegates = () => {
 
   const guestData = [
     {
-      image: "/path-to-guest-image1.jpg",
+      image: "/images/path-to-guest-image1.jpg",
       name: "Dr. Prashant Kumar Hota",
       designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Odisha"
     },
     {
-      image: "/path-to-guest-image2.jpg",
+      image: "/images/path-to-guest-image2.jpg",
       name: "Mr. Bhowmik Shah",
       designation: "Founder & CEO, CSRBOX"
     },
     {
-      image: "/path-to-guest-image3.jpg",
+      image: "/images/path-to-guest-image3.jpg",
       name: "Mr. Jayanta Kumar Mohanty",
       designation: "Head Eastern Region - CSR, Adani Foundation"
     },
@@ -29,32 +29,32 @@ const GuestDelegates = () => {
 
   const organizingCommittee = [
     {
-      image: "/path-to-patron1.jpg",
+      image: "/images/path-to-patron1.jpg",
       name: "Smt. Smitarani Panigrahi",
       designation: "Chairperson, Dinabandhu Foundation for Educational Research and Socio-Economic Development"
     },
     {
-      image: "/path-to-patron2.jpg",
+      image: "/images/path-to-patron2.jpg",
       name: "Dr. B. B. Panigrahi",
       designation: "Chief Mentor, Trident Group of Institutions"
     },
     {
-      image: "/path-to-convener1.jpg",
+      image: "/images/path-to-convener1.jpg",
       name: "Prof. Dr. D N Pattnaik",
       designation: "Principal, Trident Academy of Technology"
     },
     {
-      image: "/path-to-convener2.jpg",
+      image: "/images/path-to-convener2.jpg",
       name: "Prof. P. K. Mohanty",
       designation: "Dean, Department of Business Administration"
     },
     {
-      image: "/path-to-coordinator1.jpg",
+      image: "/images/path-to-coordinator1.jpg",
       name: "Dr. Nargis Begum",
       designation: "HOD, Dept. of Business Administration"
     },
     {
-      image: "/path-to-coordinator2.jpg",
+      image: "/images/path-to-coordinator2.jpg",
       name: "Dr. Diptimayee Sahoo",
       designation: "Asso. Prof., Dept. of Business Administration"
     },
@@ -83,7 +83,7 @@ const GuestDelegates = () => {
           ))}
         </div>
       </section>
-      
+
       {/* NGO Images Section */}
       <section className="text-center">
         <h2 className="text-3xl font-bold mb-6">Running NGO Images</h2>
