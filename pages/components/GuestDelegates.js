@@ -54,22 +54,67 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist11.jpg",
-      name: "Mr. Ambika Prasad Nanda",
+      name: "Dr.P.K.Sahu",
       designation: "Head Eastern Region - CSR, Adani Foundation",
     },
     {
       image: "/images/panelist12.jpg",
-      name: "Mr. Ambika Prasad Nanda",
+      name: "Dr. Dilip Kumar Mohanty",
       designation: "Head Eastern Region - CSR, Adani Foundation",
     },
     {
       image: "/images/panelist13.jpg",
-      name: "Mr. Ambika Prasad Nanda",
+      name: "Mr. Ashutosh Das",
       designation: "Head Eastern Region - CSR, Adani Foundation",
     },
     {
       image: "/images/panelist14.jpg",
-      name: "Mr. Ambika Prasad Nanda",
+      name: "Mr. Ashutosh Das",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Ms. Abha Mishra",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Mr. Anurag Pratap",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Mr. Abhijit Mohanty",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Mr. Ratan Kumar Naik",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Dr. Prashant Kumar Hota",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Mr. Bhowmik Shah",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Ms. Shaifalika Panda",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Dr. Tapas Kumar Pattanayak",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Dr. Niladri Bhusan Parhi",
       designation: "Head Eastern Region - CSR, Adani Foundation",
     },
   ];
