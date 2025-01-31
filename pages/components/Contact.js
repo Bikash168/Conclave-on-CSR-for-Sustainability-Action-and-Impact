@@ -105,41 +105,9 @@ const Contact = () => {
             </address>
           </div>
 
-          {/* About Us Section */}
-          <div className="text-left bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
-            <h3 className="text-2xl md:text-3xl text-[#316b9e] font-semibold mb-4">About Us</h3>
-            <p className="text-base md:text-lg text-gray-700">
-              Established in 1998, Trident Group of Institutions is a leader in education and research in Odisha. With
-              over two decades of operation, it has transformed the lives of more than 20,000 students.
-            </p>
-          </div>
+        
 
-          {/* Trident Group Websites Section */}
-          <div className="text-left bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
-            <h3 className="text-2xl md:text-3xl text-[#316b9e] font-semibold mb-4">Trident Group Websites</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="https://tat.ac.in/" className="text-gray-700 block hover:text-blue-600">
-                  Trident Academy of Technology
-                </Link>
-              </li>
-              <li>
-                <Link href="https://tact.ac.in/" className="text-gray-700 block hover:text-blue-600">
-                  Trident Academy of Creative Technology
-                </Link>
-              </li>
-              <li>
-                <Link href="https://taps.ac.in/" className="text-gray-700 block hover:text-blue-600">
-                  Trident Academy of Professional Studies
-                </Link>
-              </li>
-              <li>
-                <Link href="https://dfgroup.in/" className="text-gray-700 block hover:text-blue-600">
-                  The DF Group
-                </Link>
-              </li>
-            </ul>
-          </div>
+         
         </motion.div>
 
         {/* Follow Us Section */}
