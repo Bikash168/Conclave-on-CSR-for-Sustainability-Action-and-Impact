@@ -14,7 +14,7 @@ const Agenda = () => {
                         Conclave on
                     </h3>
                     <h4 className="text-xl md:text-2xl font-bold text-[#316b9e] italic">
-                        CSR for Sustainability: Action and Impact
+                        CSR for Sustainability: Action to Impact
                     </h4>
                     <p className="text-lg md:text-xl text-gray-700 mt-4">
                         8th & 9th February 2025
