@@ -96,17 +96,9 @@ const Contact = () => {
               www.tat.ac.in
             </a>
           </div>
-        </motion.div>
-
-        {/* Social Media Links */}
-        <motion.div
-          className="mt-12"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
-        >
+          <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
           <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
-          <div className="flex justify-center space-x-6">
+          <div className="flex justify-center space-x-6 p-6">
             {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp].map((Icon, idx) => (
               <a
                 key={idx}
@@ -119,7 +111,10 @@ const Contact = () => {
               </a>
             ))}
           </div>
+          </div>
         </motion.div>
+
+       
       </div>
       {/* Footer */}
       <footer className="bg-[#316b9e] text-white text-center py-4 mt-12">

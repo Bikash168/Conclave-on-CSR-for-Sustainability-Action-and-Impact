@@ -33,7 +33,7 @@ const About = () => {
                             About Corporate Social Responsibility (CSR)
                         </h2>
                         <p className="text-lg text-gray-700 leading-relaxed">
-                            CSR is a company's commitment to social and environmental well-being. It includes sustainability, ethical business practices, and social welfare, making a meaningful impact beyond profitability.
+                        Corporate Social Responsibility (CSR) is a company’s commitment to conducting business ethically while contributing to society and protecting the environment. It involves sustainable practices like reducing waste, using renewable resources, and lowering carbon emissions. Ethical business operations, such as fair wages, responsible sourcing, and transparency, ensure that companies act with integrity. CSR also includes community initiatives that support education, healthcare, and disaster relief, helping to improve lives. Many organizations invest in employee well-being by promoting diversity, providing a safe workplace, and encouraging social engagement. Philanthropy, such as charitable donations and social welfare programs, is another key part of CSR. By following these principles, businesses build trust, support social progress, and achieve long-term success.
                         </p>
                     </div>
                 </div>
