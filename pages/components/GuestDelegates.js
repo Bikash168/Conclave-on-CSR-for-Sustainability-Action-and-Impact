@@ -5,52 +5,52 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist1.jpg",
       name: "Mr. Jayanta Kumar Mohanty",
-      designation: "Executive Vice President, Jindal Steel & Power",
+      designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
     },
     {
       image: "/images/panelist2.jpg",
       name: "Dr. Pratyush Kumar Panda",
-      designation: "Founder & CEO, CSRBOX",
+      designation: "Chief Executive Officer-One Stage,  MD- CPF, New Delhi",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Mr. Ambika Prasad Nanda",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Head CSR - CSR, Tata Steel, Kalinga Nagar, Odisha",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Dr. Lopamudra Priyadarshini",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Assistant Vice President, Hindalco Industries Limited,Rayagada, Odisha",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Dr Yusuf Ali Solanki",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "GM (HR), EMAMI PAPER MILLS LIMITED, Balasore",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Mr.Alok Kumar Pal",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Mr. B K Mishra",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Mr. Pradeep Ghoshal",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Head-CSR, TPCODL, Bhubaneswar",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Vinod Kumar Purohit",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Chief Land & Legal Matters, Vedanta Aluminium, Vedanta Limited",
     },
     {
       image: "/images/panelist3.jpg",
       name: "Ms. Rupali Kar",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Head, Corporate Affairs, JSW,Bhubaneswar",
     },
     {
       image: "/images/panelist3.jpg",
