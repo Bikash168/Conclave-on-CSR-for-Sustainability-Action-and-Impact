@@ -63,7 +63,7 @@ const GuestDelegates = () => {
       designation: "Group Head(HR), Jayswal Neco Industries Ltd, Nagpur",
     },
     {
-      image: "/images/panelist13.jpg",
+      image: "/images/panelist13.png",
       name: "Mr. Ashutosh Das",
       designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
     },
@@ -83,7 +83,7 @@ const GuestDelegates = () => {
       designation: "AGM and Head, JSW, Paradeep",
     },
     {
-      image: "/images/panelist17.jpg",
+      image: "/images/panelist17.png",
       name: "Mr. Ratan Kumar Naik",
       designation: "Programme Manager, HDFC Bank, Odisha",
     },
