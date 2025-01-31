@@ -21,16 +21,16 @@ const EventBanner = () => {
         
         {/* Logo Section */}
         <div className="mb-4">
+        <p className="text-sm sm:text-base mb-6">
+          In Association with 
+       
           <img
             src="/images/sacred-foundation-logo.png"
             alt="SACRED Foundation Logo"
             className="mx-auto w-28 sm:w-32 md:w-40 h-auto mb-4"
           />
+           </p>
         </div>
-
-        <p className="text-sm sm:text-base mb-6">
-          In collaboration with SACRED Foundation
-        </p>
 
         {/* Registration Link */}
         <Link href="/register">

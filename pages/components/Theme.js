@@ -26,7 +26,7 @@ const Theme = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Theme
+          Sub - Theme
         </motion.h2>
         <motion.p
           className="text-lg md:text-xl text-gray-700 mb-4"
