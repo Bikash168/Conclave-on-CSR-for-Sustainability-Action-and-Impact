@@ -85,7 +85,11 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Address</h3>
             <p className="text-gray-700">
               <FaMapMarkerAlt className="inline-block text-blue-600 mr-2" />
-              Trident Academy of Technology, Bhubaneswar, Odisha, 751024
+              <span>Trident Academy of Technology</span><br></br>
+              F-2, Chandaka Industrial Estate
+              In front of Infocity, Infocity
+              Chandrasekharpur, Bhubaneshwar
+              Odisha - 751024
             </p>
             <a
               href="https://www.tat.ac.in"
@@ -97,24 +101,24 @@ const Contact = () => {
             </a>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
-          <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
-          <div className="flex justify-center space-x-6 p-6">
-            {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp].map((Icon, idx) => (
-              <a
-                key={idx}
-                href="#"
-                className="text-2xl text-gray-600 hover:text-[#316b9e] transition-all duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon />
-              </a>
-            ))}
-          </div>
+            <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
+            <div className="flex justify-center space-x-6 p-6">
+              {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp].map((Icon, idx) => (
+                <a
+                  key={idx}
+                  href="#"
+                  className="text-2xl text-gray-600 hover:text-[#316b9e] transition-all duration-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon />
+                </a>
+              ))}
+            </div>
           </div>
         </motion.div>
 
-       
+
       </div>
       {/* Footer */}
       <footer className="bg-[#316b9e] text-white text-center py-4 mt-12">
