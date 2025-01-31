@@ -18,7 +18,7 @@ const Theme = () => {
   ];
 
   return (
-    <section id="theme" className="py-16 px-4 bg-gradient-to-r from-blue-50 via-gray-100 to-blue-50">
+    <section id="sub-theme" className="py-16 px-4 bg-gradient-to-r from-blue-50 via-gray-100 to-blue-50">
       <div className="max-w-7xl mx-auto text-center mb-12">
         <motion.h2
           className="text-4xl md:text-5xl font-semibold mb-6 text-[#316b9e]"

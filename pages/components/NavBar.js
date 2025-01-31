@@ -8,7 +8,7 @@ const NavBar = () => {
 
   // Update active section based on scroll position
   useEffect(() => {
-    const sections = ['home', 'about', 'theme', 'guestdelegates', 'agenda', 'contact'];
+    const sections = ['home', 'about', 'sub-theme', 'guest-&-delegates', 'agenda', 'contact'];
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
@@ -35,6 +35,13 @@ const NavBar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const formatSectionName = (section) => {
+    return section
+      .split('-') // Split based on hyphens for multi-word names
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+      .join(' '); // Join them back with spaces
+  };
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white bg-opacity-80 p-3 z-50 shadow-md">
@@ -68,14 +75,14 @@ const NavBar = () => {
 
         {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-[#316b9e] relative">
-          {['home', 'about', 'theme', 'guestdelegates', 'agenda', 'contact'].map((section) => (
+          {['home', 'about', 'sub-theme', 'guest-&-delegates', 'agenda', 'contact'].map((section) => (
             <li key={section} className="relative">
               <Link href={`#${section}`}>
                 <span
                   className={`hover:text-gray-500 ${activeSection === section ? 'font-bold' : ''}`}
                   onClick={() => setIsOpen(false)}
                 >
-                  {section.charAt(0).toUpperCase() + section.slice(1).replace('-', ' ')}
+                  {formatSectionName(section)}
                 </span>
               </Link>
               {/* Indicator Line */}
@@ -90,14 +97,14 @@ const NavBar = () => {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <ul className="flex flex-col items-center mt-4 space-y-4 md:hidden text-blue-600">
-          {['home', 'about', 'theme', 'guestdelegates', 'agenda', 'contact'].map((section) => (
+          {['home', 'about', 'sub-theme', 'guest-&-delegates', 'agenda', 'contact'].map((section) => (
             <li key={section}>
               <Link href={`#${section}`}>
                 <span
                   className="hover:text-gray-500"
                   onClick={() => { setIsOpen(false); setActiveSection(section); }}
                 >
-                  {section.charAt(0).toUpperCase() + section.slice(1).replace('-', ' ')}
+                  {formatSectionName(section)}
                 </span>
               </Link>
             </li>
