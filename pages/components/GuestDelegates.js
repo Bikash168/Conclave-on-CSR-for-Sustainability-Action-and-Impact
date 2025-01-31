@@ -4,17 +4,72 @@ const GuestDelegates = () => {
   const panelists = [
     {
       image: "/images/panelist1.jpg",
-      name: "Dr. Prashant Kumar Hota",
+      name: "Mr. Jayanta Kumar Mohanty",
       designation: "Executive Vice President, Jindal Steel & Power",
     },
     {
       image: "/images/panelist2.jpg",
-      name: "Mr. Bhowmik Shah",
+      name: "Dr. Pratyush Kumar Panda",
       designation: "Founder & CEO, CSRBOX",
     },
     {
       image: "/images/panelist3.jpg",
-      name: "Mr. Jayanta Kumar Mohanty",
+      name: "Mr. Ambika Prasad Nanda",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Dr. Lopamudra Priyadarshini",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Dr Yusuf Ali Solanki",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr.Alok Kumar Pal",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. B K Mishra",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Pradeep Ghoshal",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Vinod Kumar Purohit",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Ms. Rupali Kar",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Ambika Prasad Nanda",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Ambika Prasad Nanda",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Ambika Prasad Nanda",
+      designation: "Head Eastern Region - CSR, Adani Foundation",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Ambika Prasad Nanda",
       designation: "Head Eastern Region - CSR, Adani Foundation",
     },
   ];
