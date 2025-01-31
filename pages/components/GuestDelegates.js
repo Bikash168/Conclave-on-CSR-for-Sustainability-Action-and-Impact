@@ -55,67 +55,62 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist11.jpg",
       name: "Dr.P.K.Sahu",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "GM HR, RSP SAIL , Rourkela",
     },
     {
       image: "/images/panelist12.jpg",
       name: "Dr. Dilip Kumar Mohanty",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Group Head(HR), Jayswal Neco Industries Ltd, Nagpur",
     },
     {
       image: "/images/panelist13.jpg",
       name: "Mr. Ashutosh Das",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
-    },
-    {
-      image: "/images/panelist14.jpg",
-      name: "Mr. Ashutosh Das",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Ms. Abha Mishra",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Head of Office-Odisha, UNDP, Bhubaneswar",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Mr. Anurag Pratap",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "VP CSR, Capgemini, Mumbai",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Mr. Abhijit Mohanty",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "AGM and Head, JSW, Paradeep",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Mr. Ratan Kumar Naik",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Programme Manager, HDFC Bank, Odisha",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Dr. Prashant Kumar Hota",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Mr. Bhowmik Shah",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Founder & CEO, CSRBOX",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Ms. Shaifalika Panda",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Trustee & CEO, BIPF,Imfa Group, Bhubaneswar",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Dr. Tapas Kumar Pattanayak",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Director, HR, NALCO, Bhubaneswar",
     },
     {
       image: "/images/panelist14.jpg",
       name: "Dr. Niladri Bhusan Parhi",
-      designation: "Head Eastern Region - CSR, Adani Foundation",
+      designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
     },
   ];
 
