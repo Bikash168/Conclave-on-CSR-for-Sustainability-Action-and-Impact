@@ -26,7 +26,7 @@ const Contact = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         />
-       
+
         <motion.h3
           className="text-3xl md:text-4xl font-semibold text-gray-700 mb-8"
           initial={{ y: -50, opacity: 0 }}
@@ -106,10 +106,16 @@ const Contact = () => {
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-6 p-6">
-              {[FaFacebook, FaXTwitter, FaInstagram, FaLinkedin, FaYoutube].map((Icon, idx) => (
+              {[
+                { Icon: FaFacebook, link: "https://www.facebook.com/tridentcollege/" },
+                { Icon: FaXTwitter, link: "https://x.com/Trident_tat" },
+                { Icon: FaInstagram, link: "https://www.instagram.com/trident_tat/" },
+                { Icon: FaLinkedin, link: "https://www.linkedin.com/school/trident-academy-of-technology-tat-bhubaneswar/posts/" },
+                { Icon: FaYoutube, link: "https://www.youtube.com/@trident_tat" }
+              ].map(({ Icon, link }, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={link}
                   className="text-2xl text-gray-600 hover:text-[#316b9e] transition-all duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -119,6 +125,7 @@ const Contact = () => {
               ))}
             </div>
           </div>
+
         </motion.div>
 
 
