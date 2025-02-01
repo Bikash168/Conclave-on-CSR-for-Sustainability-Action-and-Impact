@@ -107,6 +107,16 @@ const GuestDelegates = () => {
       name: "Dr. Niladri Bhusan Parhi",
       designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
     },
+    {
+      image: "/images/panelist23.jpeg",
+      name: "Sri Manish Yadav",
+      designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
+    },
+    {
+      image: "/images/panelist24.jpeg",
+      name: "Prof. Sutapa Pati",
+      designation: "Dean, School of Sustainability XIM University",
+    },
   ];
 
 
