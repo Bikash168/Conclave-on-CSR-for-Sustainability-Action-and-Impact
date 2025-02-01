@@ -98,11 +98,6 @@ const GuestDelegates = () => {
       designation: "Founder & CEO, CSRBOX",
     },
     {
-      image: "/images/panelist20.jpg",
-      name: "Ms. Shaifalika Panda",
-      designation: "Trustee & CEO, BIPF,Imfa Group, Bhubaneswar",
-    },
-    {
       image: "/images/panelist21.jpg",
       name: "Dr. Tapas Kumar Pattanayak",
       designation: "Director, HR, NALCO, Bhubaneswar",
@@ -175,7 +170,7 @@ const GuestDelegates = () => {
         </div>
       </section>
 
-    
+
 
       {/* Organizing Committee Section with background color and margin from top */}
       <div className="container mx-auto p-6 space-y-12 bg-[#f0f8ff] mt-12">
