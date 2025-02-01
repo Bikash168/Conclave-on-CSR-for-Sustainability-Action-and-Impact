@@ -114,7 +114,7 @@ const GuestDelegates = () => {
     },
   ];
 
-  const ngos = ["/images/ngo1.jpg", "/images/ngo2.jpg", "/images/ngo3.jpg"];
+
 
   const organizingCommittee = {
     patrons: [
@@ -175,20 +175,7 @@ const GuestDelegates = () => {
         </div>
       </section>
 
-      {/* NGO Images Section */}
-      <section className="text-center">
-        <h2 className="text-3xl font-bold mb-6 text-[#316b9e]">NGOs</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {ngos.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt={`NGO ${index + 1}`}
-              className="w-48 h-48 object-cover rounded-xl shadow-md mx-auto"
-            />
-          ))}
-        </div>
-      </section>
+    
 
       {/* Organizing Committee Section with background color and margin from top */}
       <div className="container mx-auto p-6 space-y-12 bg-[#f0f8ff] mt-12">
