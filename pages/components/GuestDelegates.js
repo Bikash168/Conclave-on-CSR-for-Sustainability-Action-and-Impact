@@ -24,7 +24,7 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist5.jpg",
-      name: "Dr Yusuf Ali Solanki",
+      name: "Dr. Yusuf Ali Solanki",
       designation: "GM (HR), EMAMI PAPER MILLS LIMITED, Balasore",
     },
     {
@@ -44,7 +44,7 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist9.jpg",
-      name: "Vinod Kumar Purohit",
+      name: "Mr. Vinod Kumar Purohit",
       designation: "Chief Land & Legal Matters, Vedanta Aluminium, Vedanta Limited",
     },
     {
@@ -54,7 +54,7 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist11.jpg",
-      name: "Dr.P.K.Sahu",
+      name: "Dr. P.K.Sahu",
       designation: "GM HR, RSP SAIL , Rourkela",
     },
     {
