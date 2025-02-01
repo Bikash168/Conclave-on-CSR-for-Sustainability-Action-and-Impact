@@ -127,7 +127,7 @@ const GuestDelegates = () => {
     conveners: [
       {
         image: "/images/convener1.jpg",
-        name: "Prof. Dr. D N Pattnaik",
+        name: "Prof. Dr. D N Patnaik",
         designation: "Principal, Trident Academy of Technology",
       },
       {
