@@ -8,7 +8,7 @@ const NavBar = () => {
 
   // Update active section based on scroll position
   useEffect(() => {
-    const sections = ['home', 'about', 'sub-theme', 'panelist', 'agenda', 'contact'];
+    const sections = ['home', 'about', 'sub-theme', 'panelists', 'agenda', 'contact'];
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
@@ -77,7 +77,7 @@ const NavBar = () => {
 
         {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-[#316b9e] relative">
-          {['home', 'about', 'sub-theme', 'panelist', 'agenda', 'contact'].map((section) => (
+          {['home', 'about', 'sub-theme', 'panelists', 'agenda', 'contact'].map((section) => (
             <li key={section} className="relative">
               <Link href={`#${section}`}>
                 <span
@@ -99,7 +99,7 @@ const NavBar = () => {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <ul className="flex flex-col items-center mt-4 space-y-4 md:hidden text-blue-600">
-          {['home', 'about', 'sub-theme', 'panelist', 'agenda', 'contact'].map((section) => (
+          {['home', 'about', 'sub-theme', 'panelists', 'agenda', 'contact'].map((section) => (
             <li key={section}>
               <Link href={`#${section}`}>
                 <span

@@ -161,7 +161,7 @@ const GuestDelegates = () => {
   };
 
   return (
-    <div id="panelist" className="container mx-auto p-6 space-y-12">
+    <div id="panelists" className="container mx-auto p-6 space-y-12">
       {/* Panelists Section */}
       <section className="text-center">
         <h2 className="text-3xl font-bold mb-6 text-[#316b9e]">Panelists</h2>
