@@ -47,16 +47,18 @@ const NavBar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white bg-opacity-80 p-3 z-50 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* Logo Section */}
-        <div className="flex items-center space-x-4">
-          <Image
-            src="/logo.png"
-            alt="Trident Logo"
-            width={60}
-            height={60}
-            className="w-17 h-17 object-contain"
-          />
-          <h2 className="text-xl font-semibold text-[#316b9e]">Trident Academy of Technology</h2>
-        </div>
+        <Link href="https://tat.ac.in/" target="_blank" rel="noopener noreferrer">
+          <div className="flex items-center space-x-4 cursor-pointer">
+            <Image
+              src="/logo.png"
+              alt="Trident Logo"
+              width={60}
+              height={60}
+              className="w-17 h-17 object-contain"
+            />
+            <h2 className="text-xl font-semibold text-[#316b9e]">Trident Academy of Technology</h2>
+          </div>
+        </Link>
 
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
