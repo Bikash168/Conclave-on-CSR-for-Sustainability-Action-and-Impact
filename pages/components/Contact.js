@@ -12,6 +12,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -105,7 +106,7 @@ const Contact = () => {
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-6 p-6">
-              {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp].map((Icon, idx) => (
+              {[FaFacebook, FaXTwitter, FaInstagram, FaLinkedin, FaYoutube].map((Icon, idx) => (
                 <a
                   key={idx}
                   href="#"
