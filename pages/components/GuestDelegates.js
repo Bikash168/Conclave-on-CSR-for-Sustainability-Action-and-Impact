@@ -2,11 +2,7 @@ import React from "react";
 
 const GuestDelegates = () => {
   const panelists = [
-    {
-      image: "/images/panelist1.jpg",
-      name: "Mr. Jayanta Kumar Mohanty",
-      designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
-    },
+    
     {
       image: "/images/panelist2.jpg",
       name: "Dr. Pratyush Kumar Panda",
@@ -87,8 +83,11 @@ const GuestDelegates = () => {
 
 
 
-    
-
+    {
+      image: "/images/panelist1.jpg",
+      name: "Mr. Jayanta Kumar Mohanty",
+      designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
+    },
     {
       image: "/images/panelist6.jpg",
       name: "Mr.Alok Kumar Pal",
