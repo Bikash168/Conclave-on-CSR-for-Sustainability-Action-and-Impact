@@ -78,6 +78,18 @@ const GuestDelegates = () => {
       designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
     },
     {
+      image: "/images/panelist24.jpeg",
+      name: "Prof. Sutapa Pati",
+      designation: "Dean, School of Sustainability XIM University",
+    },
+    {
+      image: "/images/panelist28.jpeg",
+      name: "Mr. Jitender Ghangas",
+      designation: "Associate Director, CSR and Sustainability,LTIMindtree",
+    },
+
+
+    {
       image: "/images/panelist6.jpg",
       name: "Mr.Alok Kumar Pal",
       designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
@@ -129,11 +141,7 @@ const GuestDelegates = () => {
       name: "Sri Manish Yadav",
       designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
     },
-    {
-      image: "/images/panelist24.jpeg",
-      name: "Prof. Sutapa Pati",
-      designation: "Dean, School of Sustainability XIM University",
-    },
+    
   ];
 
 
