@@ -18,6 +18,11 @@ const GuestDelegates = () => {
       designation: "Head CSR - CSR, Tata Steel, Kalinga Nagar, Odisha",
     },
     {
+      image: "/images/panelist13.png",
+      name: "Mr. Ashutosh Das",
+      designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
+    },
+    {
       image: "/images/panelist4.jpg",
       name: "Dr. Lopamudra Priyadarshini",
       designation: "Assistant Vice President, Hindalco Industries Limited,Rayagada, Odisha",
@@ -28,19 +33,9 @@ const GuestDelegates = () => {
       designation: "GM (HR), EMAMI PAPER MILLS LIMITED, Balasore",
     },
     {
-      image: "/images/panelist6.jpg",
-      name: "Mr.Alok Kumar Pal",
-      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
-    },
-    {
       image: "/images/panelist7.jpg",
       name: "Mr. B K Mishra",
       designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
-    },
-    {
-      image: "/images/panelist8.jpg",
-      name: "Mr. Pradeep Ghoshal",
-      designation: "Head-CSR, TPCODL, Bhubaneswar",
     },
     {
       image: "/images/panelist9.jpg",
@@ -53,6 +48,34 @@ const GuestDelegates = () => {
       designation: "Head, Corporate Affairs, JSW,Bhubaneswar",
     },
     {
+      image: "/images/panelist16.jpg",
+      name: "Mr. Abhijit Mohanty",
+      designation: "AGM and Head, JSW, Paradeep",
+    },
+    {
+      image: "/images/panelist18.jpg",
+      name: "Dr. Prashant Kumar Hota",
+      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
+    },
+    {
+      image: "/images/panelist22.jpg",
+      name: "Dr. Niladri Bhusan Parhi",
+      designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
+    },
+    {
+      image: "/images/panelist6.jpg",
+      name: "Mr.Alok Kumar Pal",
+      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
+    },
+   
+    {
+      image: "/images/panelist8.jpg",
+      name: "Mr. Pradeep Ghoshal",
+      designation: "Head-CSR, TPCODL, Bhubaneswar",
+    },
+    
+  
+    {
       image: "/images/panelist11.jpg",
       name: "Dr. P.K.Sahu",
       designation: "GM HR, RSP SAIL , Rourkela",
@@ -62,11 +85,7 @@ const GuestDelegates = () => {
       name: "Dr. Dilip Kumar Mohanty",
       designation: "Group Head(HR), Jayswal Neco Industries Ltd, Nagpur",
     },
-    {
-      image: "/images/panelist13.png",
-      name: "Mr. Ashutosh Das",
-      designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
-    },
+    
     {
       image: "/images/panelist14.jpg",
       name: "Ms. Abha Mishra",
@@ -77,36 +96,19 @@ const GuestDelegates = () => {
       name: "Mr. Anurag Pratap",
       designation: "VP CSR, Capgemini, Mumbai",
     },
-    {
-      image: "/images/panelist16.jpg",
-      name: "Mr. Abhijit Mohanty",
-      designation: "AGM and Head, JSW, Paradeep",
-    },
+   
     {
       image: "/images/panelist17.png",
       name: "Mr. Ratan Kumar Naik",
       designation: "Programme Manager, HDFC Bank, Odisha",
     },
-    {
-      image: "/images/panelist18.jpg",
-      name: "Dr. Prashant Kumar Hota",
-      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
-    },
-    {
-      image: "/images/panelist19.jpg",
-      name: "Mr. Bhowmik Shah",
-      designation: "Founder & CEO, CSRBOX",
-    },
-    {
+   
+        {
       image: "/images/panelist21.jpg",
       name: "Dr. Tapas Kumar Pattanayak",
       designation: "Director, HR, NALCO, Bhubaneswar",
     },
-    {
-      image: "/images/panelist22.jpg",
-      name: "Dr. Niladri Bhusan Parhi",
-      designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
-    },
+   
     {
       image: "/images/panelist23.jpeg",
       name: "Sri Manish Yadav",
