@@ -64,18 +64,13 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist25.jpeg",
-      name: "Mr. Sanjay Kumar Bhari",
+      name: "Mr. Sanjay Kumar Bhar",
       designation: "General Manager cum Regional Director, CMPDI, Bhubaneswar",
     },
     {
       image: "/images/panelist26.jpeg",
       name: "Dr. Debabrata Dash",
       designation: "Head HR, East, AM/NS india at ArcelorMittal Nippon Steel India",
-    },
-    {
-      image: "/images/panelist27.jpeg",
-      name: "Mr. Sunila Das",
-      designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
     },
     {
       image: "/images/panelist24.jpeg",
@@ -89,20 +84,28 @@ const GuestDelegates = () => {
     },
 
 
+
+
+
+    
+
     {
       image: "/images/panelist6.jpg",
       name: "Mr.Alok Kumar Pal",
       designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
     },
-   
+    {
+      image: "/images/panelist27.jpeg",
+      name: "Mr. Sunila Das",
+      designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
+    },
     {
       image: "/images/panelist8.jpg",
       name: "Mr. Pradeep Ghoshal",
       designation: "Head-CSR, TPCODL, Bhubaneswar",
     },
-    
-  
-    {
+
+        {
       image: "/images/panelist11.jpg",
       name: "Dr. P.K.Sahu",
       designation: "GM HR, RSP SAIL , Rourkela",
@@ -112,7 +115,7 @@ const GuestDelegates = () => {
       name: "Dr. Dilip Kumar Mohanty",
       designation: "Group Head(HR), Jayswal Neco Industries Ltd, Nagpur",
     },
-    
+
     {
       image: "/images/panelist14.jpg",
       name: "Ms. Abha Mishra",
@@ -123,25 +126,25 @@ const GuestDelegates = () => {
       name: "Mr. Anurag Pratap",
       designation: "VP CSR, Capgemini, Mumbai",
     },
-   
+
     {
       image: "/images/panelist17.png",
       name: "Mr. Ratan Kumar Naik",
       designation: "Programme Manager, HDFC Bank, Odisha",
     },
-   
-        {
+
+    {
       image: "/images/panelist21.jpg",
       name: "Dr. Tapas Kumar Pattanayak",
       designation: "Director, HR, NALCO, Bhubaneswar",
     },
-   
+
     {
       image: "/images/panelist23.jpeg",
       name: "Sri Manish Yadav",
       designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
     },
-    
+
   ];
 
 
