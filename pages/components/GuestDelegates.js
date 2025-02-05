@@ -63,6 +63,21 @@ const GuestDelegates = () => {
       designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
     },
     {
+      image: "/images/panelist25.jpeg",
+      name: "Mr. Sanjay Kumar Bhari",
+      designation: "General Manager cum Regional Director, CMPDI, Bhubaneswar",
+    },
+    {
+      image: "/images/panelist26.jpeg",
+      name: "Dr. Debabrata Dash",
+      designation: "Head HR, East, AM/NS india at ArcelorMittal Nippon Steel India",
+    },
+    {
+      image: "/images/panelist27.jpeg",
+      name: "Mr. Sunila Das",
+      designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
+    },
+    {
       image: "/images/panelist6.jpg",
       name: "Mr.Alok Kumar Pal",
       designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
