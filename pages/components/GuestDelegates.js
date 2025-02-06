@@ -70,7 +70,7 @@ const GuestDelegates = () => {
 
     {
       image: "/images/panelist11.jpg",
-      name: "Dr. P.K.Sahu",
+      name: "Dr. P. K. Sahu",
       designation: "GM HR, RSP SAIL , Rourkela",
     },
     {
