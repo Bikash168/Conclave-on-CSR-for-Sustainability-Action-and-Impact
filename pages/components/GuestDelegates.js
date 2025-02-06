@@ -63,11 +63,7 @@ const GuestDelegates = () => {
       name: "Dr. Prashant Kumar Hota",
       designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
     },
-    {
-      image: "/images/panelist1.jpg",
-      name: "Mr. Jayanta Kumar Mohanty",
-      designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
-    },
+  
 
 
 
