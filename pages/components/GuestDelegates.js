@@ -143,6 +143,11 @@ const GuestDelegates = () => {
       name: "Sri Manish Yadav",
       designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
     },
+    {
+      image: "/images/panelist30.jpg",
+      name: "Mr. Ashutosh Rath",
+      designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
+    },
 
   ];
 
