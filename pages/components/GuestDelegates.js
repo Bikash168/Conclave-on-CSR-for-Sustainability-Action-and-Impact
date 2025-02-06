@@ -146,7 +146,7 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist30.jpg",
       name: "Mr. Ashutosh Rath",
-      designation: "Manager (Environment), CMPDIL(Coal India subsidiary)",
+      designation: "Executive Director ( HRD & Administration ) , National Aluminium Company Limited - NALCO ",
     },
 
   ];
