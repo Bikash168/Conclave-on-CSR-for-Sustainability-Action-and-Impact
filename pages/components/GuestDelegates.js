@@ -2,13 +2,13 @@ import React from "react";
 
 const GuestDelegates = () => {
   const panelists = [
-    
+
     {
       image: "/images/panelist2.jpg",
       name: "Dr. Pratyush Kumar Panda",
       designation: "Chief Executive Officer-One Stage,  MD- CPF, New Delhi",
     },
-        {
+    {
       image: "/images/panelist13.png",
       name: "Mr. Ashutosh Das",
       designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
@@ -28,7 +28,7 @@ const GuestDelegates = () => {
       name: "Dr. Lopamudra Priyadarshini",
       designation: "Assistant Vice President, Hindalco Industries Limited,Rayagada, Odisha",
     },
-        {
+    {
       image: "/images/panelist7.jpg",
       name: "Mr. B K Mishra",
       designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
@@ -63,7 +63,7 @@ const GuestDelegates = () => {
       name: "Dr. Prashant Kumar Hota",
       designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
     },
-  
+
 
 
 
@@ -88,7 +88,7 @@ const GuestDelegates = () => {
       name: "Mr. Jayanta Kumar Mohanty",
       designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
     },
-         {
+    {
       image: "/images/panelist3.jpg",
       name: "Mr. Ambika Prasad Nanda",
       designation: "Head CSR - CSR, Tata Steel, Kalinga Nagar, Odisha",
@@ -123,10 +123,20 @@ const GuestDelegates = () => {
       name: "Dr. Niladri Bhusan Parhi",
       designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
     },
-          
+
   ];
 
-
+  const ngos = [
+    { name: "WOSCA", src: "/images/WOSCA LOGO.png" },
+    { name: "SUSI CHARITABLE TRUST", src: "/images/SusiTrust.jpg" },
+    { name: "DEBADATTA CLUB", src: "/images/DeabaduttaClub.png" },
+    { name: "MANAVA ADHIKAR SEVA SAMITI", src: "/images/MASS.jpg" },
+    { name: "Odisha Raising Foundation", src: "/images/OdishaRaisingFoundation.png" },
+    { name: "Jewelsinternational Chetana", src: "/images/chetana-logo-new.png" },
+    { name: "CENTRE FOR ENVIRONMENT AND DEVELOPMENT", src: "/images/CED.jpg" },
+    { name: "Utkal Youth Association for Social Development UYASD", src: "/images/ut.jpg" },
+  ];
+  
 
   const organizingCommittee = {
     patrons: [
@@ -188,6 +198,24 @@ const GuestDelegates = () => {
       </section>
 
 
+  {/* NGO Images Section */}
+<section className="text-center">
+  <h2 className="text-3xl font-bold mb-6 text-[#316b9e]">NGOs</h2>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+  {ngos.map((ngo, index) => (
+    <div key={index} className="flex flex-col items-center">
+      <img
+        src={ngo.src}
+        alt={ngo.name}
+        className="w-full max-w-[150px] h-auto max-h-[150px] object-contain rounded-md"
+      />
+      <p className="mt-2 text-center text-sm font-medium">{ngo.name}</p>
+    </div>
+  ))}
+</div>
+
+</section>
+
 
       {/* Organizing Committee Section with background color and margin from top */}
       <div className="container mx-auto p-6 space-y-12 bg-[#f0f8ff] mt-12">
@@ -214,6 +242,7 @@ const GuestDelegates = () => {
                 </div>
               </div>
             )}
+
 
             {/* Conveners */}
             {organizingCommittee.conveners && (
