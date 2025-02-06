@@ -146,9 +146,13 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist30.jpg",
       name: "Mr. Ashutosh Rath",
-      designation: "Executive Director ( HRD & Administration ) , National Aluminium Company Limited - NALCO ",
+      designation: "Executive Director ( HRD & Administration ), National Aluminium Company Limited - NALCO ",
     },
-
+    {
+      image: "/images/panelist31.jpg",
+      name: "Ms. Surekha Routray",
+      designation: "Co-founder & Managing Director, ASHDIT Group ",
+    },
   ];
 
 
