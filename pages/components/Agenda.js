@@ -33,7 +33,7 @@ const Agenda = () => {
                     {/* Link to Download/View the Agenda PDF */}
                     <div className="text-center mb-8">
                         <a
-                            href="/pdfs/agenda.pdf"  // Replace with the actual path to your PDF file
+                            href="/pdfs/Agenda_CSR.pdf"  // Replace with the actual path to your PDF file
                             className="inline-block text-white bg-[#316b9e] py-2 px-4 rounded-md hover:bg-[#2c4d66] transition-colors"
                             download
                         >
