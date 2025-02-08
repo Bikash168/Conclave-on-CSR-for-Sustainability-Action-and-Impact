@@ -2,11 +2,20 @@ import React from "react";
 
 const GuestDelegates = () => {
   const panelists = [
-
+    {
+      image: "/images/panelist18.jpg",
+      name: "Dr. Prashant Kumar Hota",
+      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
+    },
     {
       image: "/images/panelist2.jpg",
       name: "Dr. Pratyush Kumar Panda",
       designation: "Chief Executive Officer-One Stage,  MD- CPF, New Delhi",
+    },
+    {
+      image: "/images/panelist7.jpg",
+      name: "Mr. B K Mishra",
+      designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
     },
     {
       image: "/images/panelist13.png",
@@ -29,10 +38,11 @@ const GuestDelegates = () => {
       designation: "Assistant Vice President, Hindalco Industries Limited,Rayagada, Odisha",
     },
     {
-      image: "/images/panelist7.jpg",
-      name: "Mr. B K Mishra",
-      designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
+      image: "/images/panelist36.jpg",
+      name: "Ms. Smita Mohapatra",
+      designation: "Manager (HR), Hindustan Aeronautics Limited (HAL)",
     },
+   
     {
       image: "/images/panelist10.jpg",
       name: "Ms. Rupali Kar",
@@ -58,11 +68,7 @@ const GuestDelegates = () => {
       name: "Dr. Debabrata Dash",
       designation: "Head HR, East, AM/NS india at ArcelorMittal Nippon Steel India",
     },
-    {
-      image: "/images/panelist18.jpg",
-      name: "Dr. Prashant Kumar Hota",
-      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
-    },
+   
 
 
 
