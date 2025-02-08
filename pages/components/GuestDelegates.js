@@ -151,6 +151,8 @@ const GuestDelegates = () => {
     { name: "CENTRE FOR ENVIRONMENT AND DEVELOPMENT", src: "/images/CED.jpg" },
     { name: "Utkal Youth Association for Social Development UYASD", src: "/images/ut.jpg" },
     { name: "SWADESH INFRA MARKETING PVT. LTD.", src: "/images/swadesh_infra_marketing_pvt_ltd_logo.jpg" },
+    { name: "Association for Development and Research in Socio Economics Activities (ADARSA)", src: "/images/OIP.jpg" },
+   
   ];
   
 
