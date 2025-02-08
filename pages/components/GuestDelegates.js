@@ -18,7 +18,7 @@ const GuestDelegates = () => {
       designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
     },
     {
-      image: "/images/panelist13.png",
+      image: "/images/panelist13.jpg",
       name: "Mr. Ashutosh Das",
       designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
     },
