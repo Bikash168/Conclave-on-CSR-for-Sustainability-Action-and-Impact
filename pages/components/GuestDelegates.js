@@ -133,6 +133,11 @@ const GuestDelegates = () => {
       name: "Dr. Niladri Bhusan Parhi",
       designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
     },
+    {
+      image: "/images/panelist38.jpg",
+      name: "Mr. Pradeep Ghoshal",
+      designation: "Head (CSR), TPCODL",
+    },
 
   ];
 
