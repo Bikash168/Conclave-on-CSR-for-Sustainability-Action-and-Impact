@@ -42,7 +42,11 @@ const GuestDelegates = () => {
       name: "Ms. Smita Mohapatra",
       designation: "Manager (HR), Hindustan Aeronautics Limited (HAL)",
     },
-   
+    {
+      image: "/images/panelist6.jpg",
+      name: "Mr.Alok Kumar Pal",
+      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
+    },
     {
       image: "/images/panelist10.jpg",
       name: "Ms. Rupali Kar",
@@ -68,7 +72,11 @@ const GuestDelegates = () => {
       name: "Dr. Debabrata Dash",
       designation: "Head HR, East, AM/NS india at ArcelorMittal Nippon Steel India",
     },
-   
+    {
+      image: "/images/panelist37.png",
+      name: "Mr. Ratan Kumar Naik",
+      designation: "Manager (CSR), HDFC Bank",
+    },
 
 
 
@@ -104,11 +112,7 @@ const GuestDelegates = () => {
       name: "Mr. Sunila Das",
       designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
     },
-    {
-      image: "/images/panelist6.jpg",
-      name: "Mr.Alok Kumar Pal",
-      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
-    },
+   
     {
       image: "/images/panelist31.jpg",
       name: "Ms. Surekha Routray",
