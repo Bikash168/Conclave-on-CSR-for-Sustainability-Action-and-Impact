@@ -44,7 +44,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white bg-opacity-80 p-3 z-50 shadow-md">
+    <nav className="fixed top-0 left-0 w-full bg-white bg-opacity-80 p-3 z-50 shadow-md font-serif">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* Logo Section */}
         <Link href="https://tat.ac.in/" target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,7 @@ const NavBar = () => {
               height={60}
               className="w-17 h-17 object-contain"
             />
-            <h2 className="text-xl font-semibold text-[#316b9e]">Trident Academy of Technology</h2>
+            <h2 className="text-xl font-semibold text-[#316b9e] font-serif">Trident Academy of Technology</h2>
           </div>
         </Link>
 
@@ -81,7 +81,7 @@ const NavBar = () => {
             <li key={section} className="relative">
               <Link href={`#${section}`}>
                 <span
-                  className={`hover:text-gray-500 ${activeSection === section ? 'font-bold' : ''}`}
+                  className={`hover:text-gray-500 ${activeSection === section ? 'font-bold'  : ''}`}
                   onClick={() => setIsOpen(false)}
                 >
                   {formatSectionName(section)}

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"], // Added Poppins font
+      },
       animation: {
         marquee: "marquee 20s linear infinite",
       },
@@ -17,4 +20,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

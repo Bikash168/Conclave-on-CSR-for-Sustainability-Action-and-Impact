@@ -3,158 +3,128 @@ import React from "react";
 const GuestDelegates = () => {
   const panelists = [
     {
-      image: "/images/panelist18.jpg",
-      name: "Dr. Prashant Kumar Hota",
-      designation: "Executive Vice President, & Group Head CSR & Education, Jindal Steel & Power, Angul, Odisha",
+      image: "/images/panelist1.jpg",
+      name: "Mr. Anil Kumar Muniswamy",
+      designation: "Founding Director, SLN Technologies",
     },
     {
       image: "/images/panelist2.jpg",
-      name: "Dr. Pratyush Kumar Panda",
-      designation: "Chief Executive Officer-One Stage,  MD- CPF, New Delhi",
-    },
-    {
-      image: "/images/panelist7.jpg",
-      name: "Mr. B K Mishra",
-      designation: "Chairman, Odisha CSR Forum, Bhubaneswar",
-    },
-    {
-      image: "/images/panelist13.jpg",
-      name: "Mr. Ashutosh Das",
-      designation: "Area Manager CSR, TATASTEEL, Dhenkanal",
-    },
-    {
-      image: "/images/panelist28.jpeg",
-      name: "Mr. Jitender Ghangas",
-      designation: "Associate Director, CSR and Sustainability,LTIMindtree",
-    },
-    {
-      image: "/images/panelist5.jpg",
-      name: "Dr. Yusuf Ali Solanki",
-      designation: "GM (HR), EMAMI PAPER MILLS LIMITED, Balasore",
-    },
-    {
-      image: "/images/panelist4.jpg",
-      name: "Dr. Lopamudra Priyadarshini",
-      designation: "Assistant Vice President, Hindalco Industries Limited,Rayagada, Odisha",
-    },
-    {
-      image: "/images/panelist36.jpg",
-      name: "Ms. Smita Mohapatra",
-      designation: "Manager (HR), Hindustan Aeronautics Limited (HAL)",
-    },
-    {
-      image: "/images/panelist6.jpg",
-      name: "Mr.Alok Kumar Pal",
-      designation: "Director (HR), Odisha Mining Corporation (OMC), Bhubaneswar",
-    },
-    {
-      image: "/images/panelist10.jpg",
-      name: "Ms. Rupali Kar",
-      designation: "Head, Corporate Affairs, JSW,Bhubaneswar",
-    },
-    {
-      image: "/images/panelist24.jpeg",
-      name: "Prof. Sutapa Pati",
-      designation: "Dean, School of Sustainability XIM University",
-    },
-    {
-      image: "/images/panelist25.jpeg",
-      name: "Mr. Sanjay Kumar Bhar",
-      designation: "General Manager cum Regional Director, CMPDI, Bhubaneswar",
-    },
-    {
-      image: "/images/panelist9.jpg",
-      name: "Mr. Vinod Kumar Purohit",
-      designation: "Chief Land & Legal Matters, Vedanta Aluminium, Vedanta Limited",
-    },
-    {
-      image: "/images/panelist26.jpeg",
-      name: "Dr. Debabrata Dash",
-      designation: "Head HR, East, AM/NS india at ArcelorMittal Nippon Steel India",
-    },
-    {
-      image: "/images/panelist37.png",
-      name: "Mr. Ratan Kumar Naik",
-      designation: "Manager (CSR), HDFC Bank",
-    },
-
-
-
-
-
-    {
-      image: "/images/panelist11.jpg",
-      name: "Dr. P. K. Sahu",
-      designation: "GM HR, RSP SAIL , Rourkela",
-    },
-    {
-      image: "/images/panelist15.jpg",
-      name: "Mr. Anurag Pratap",
-      designation: "VP CSR, Capgemini, Mumbai",
-    },
-    {
-      image: "/images/panelist30.jpg",
-      name: "Mr. Ashutosh Rath",
-      designation: "Executive Director ( HRD & Administration ), National Aluminium Company Limited - NALCO ",
-    },
-    {
-      image: "/images/panelist1.jpg",
-      name: "Mr. Jayanta Kumar Mohanty",
-      designation: "Head Eastern Region - CSR, Adani Foundation at Adani Group",
+      name: "Prof. Samrat L. Sabat",
+      designation: "CASEST, University of Hyderabad",
     },
     {
       image: "/images/panelist3.jpg",
-      name: "Mr. Ambika Prasad Nanda",
-      designation: "Head CSR - CSR, Tata Steel, Kalinga Nagar, Odisha",
+      name: "Prof. Vijay Shankar Pasupureddi",
+      designation: "Department of ECE, IIT Bhubaneswar",
     },
     {
-      image: "/images/panelist27.jpeg",
-      name: "Mr. Sunila Das",
-      designation: "Head -HR Odisha Assets, AM/NS india at ArcelorMittal Nippon Steel India",
-    },
-   
-    {
-      image: "/images/panelist31.jpg",
-      name: "Ms. Surekha Routray",
-      designation: "Co-founder & Managing Director, ASHDIT Group ",
+      image: "/images/panelist4.jpg",
+      name: "Mr. Pravin Kumar Gupta",
+      designation: "Senior Director, ARF Design Pvt Ltd",
     },
     {
-      image: "/images/panelist14.jpg",
-      name: "Ms. Abha Mishra",
-      designation: "Head of Office-Odisha, UNDP, Bhubaneswar",
+      image: "/images/panelist5.jpg",
+      name: "Mr. B. B. Mehta",
+      designation: "Director (SLDC and Projects), OPTCL",
     },
     {
-      image: "/images/panelist12.jpg",
-      name: "Dr. Dilip Kumar Mohanty",
-      designation: "Group Head(HR), Jayswal Neco Industries Ltd, Nagpur",
+      image: "/images/panelist6.jpg",
+      name: "Mr. Manoj Gupta",
+      designation: "CEO, TP Renewable Microgrid Ltd., Delhi",
+    },
+    {
+      image: "/images/panelist7.jpeg",
+      name: "Mr. Asok K. Choudhury",
+      designation: "Consultant-Renewables, TPCODL",
+    },
+    {
+      image: "/images/panelist8.png",
+      name: "Mr. Soumyaranjan Aich",
+      designation: "Director Technical, OREDA",
+    },
+    {
+      image: "/images/panelist9.jpg",
+      name: "Mr. Mahesh Dash",
+      designation: "Chief Project Manager, RE-GRIDCO Ltd, Odisha",
+    },
+    {
+      image: "/images/panelist10.jpg",
+      name: "Dr. Chandrasekhar Perumalla",
+      designation: "School of Electrical and Computer Sciences, IIT Bhubaneswar",
+    },
+    {
+      image: "/images/panelist24.jpeg",
+      name: "Mr. Bikash Mohanty",
+      designation: "Manager Ele, Aarti Steels Ltd, Odisha",
+    },
+    {
+      image: "/images/panelist25.jpeg",
+      name: "Mr. Sarthak Bhagat",
+      designation: "CEO, White Shark Energy Pvt. Ltd, Odisha",
+    },
+    {
+      image: "/images/panelist9.jpg",
+      name: "Mr. Pradip Thaker",
+      designation: "Country Head & VP, D-Matrix",
+    },
+    {
+      image: "/images/panelist26.jpeg",
+      name: "Mr. P.K. Parida",
+      designation: "Retired Senior Scientist, Odisha Space Application Center",
+    },
+    {
+      image: "/images/panelist37.png",
+      name: "Mr. Subhadarshi Mishra",
+      designation: "Managing Director, SPARC",
     },
     {
       image: "/images/panelist22.jpg",
-      name: "Dr. Niladri Bhusan Parhi",
-      designation: "Deputy Executive Director-HR & Corporate Social Relations, Dalmia Cement, Rajgangpur",
+      name: "Dr. Krushna Chandra Gouda",
+      designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
     },
     {
       image: "/images/panelist38.jpg",
-      name: "Mr. Pradeep Ghoshal",
-      designation: "Head (CSR), TPCODL",
+      name: "Dr. Gynendranath Mohapatra",
+      designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
+    },
+    {
+      image: "/images/panelist31.jpg",
+      name: "Dr. Debadatta Swain",
+      designation: "School of Earth, Ocean, and Climate Sciences, IIT Bhubaneswar",
+    },
+    {
+      image: "/images/panelist14.jpg",
+      name: "Mr. Bodhisattwa Sanghapriya",
+      designation: "Founder & CEO, IG Drones",
+    },
+    {
+      image: "/images/panelist12.jpg",
+      name: "Mr. Deepak Kumar Nath",
+      designation: "CEO & Founder, Threatsys Technologies",
+    },
+    {
+      image: "/images/panelist1.jpg",
+      name: "Dr. Rabindra Narayan Behera",
+      designation: "Member of Parliament, Jajpur, Odisha; Standing Committee Member of Communications and IT",
+    },
+    {
+      image: "/images/panelist3.jpg",
+      name: "Mr. Niladri Bihari Mohanty",
+      designation: "Scientist-D and Joint Director (IT), National Informatics Center",
+    },
+    {
+      image: "/images/panelist27.jpeg",
+      name: "Mr. Kali Prasad Sahani",
+      designation: "Cyber Security Lead, VISA",
+    },
+    {
+      image: "/images/panelist30.jpg",
+      name: "Mr. Amit Kumar Das",
+      designation: "Chief Information Officer, CSM Technologies Pvt Ltd",
     },
 
   ];
 
-  const ngos = [
-    { name: "WOSCA", src: "/images/WOSCA LOGO.png" },
-    { name: "SUSI CHARITABLE TRUST", src: "/images/SusiTrust.jpg" },
-    { name: "DEBADATTA CLUB", src: "/images/DeabaduttaClub.png" },
-    { name: "MANAVA ADHIKAR SEVA SAMITI", src: "/images/MASS.jpg" },
-    { name: "Odisha Raising Foundation", src: "/images/OdishaRaisingFoundation.png" },
-    { name: "Jewelsinternational Chetana", src: "/images/chetana-logo-new.png" },
-    { name: "CENTRE FOR ENVIRONMENT AND DEVELOPMENT", src: "/images/CED.jpg" },
-    { name: "Utkal Youth Association for Social Development UYASD", src: "/images/ut.jpg" },
-    { name: "SWADESH INFRA MARKETING PVT. LTD.", src: "/images/swadesh_infra_marketing_pvt_ltd_logo.jpg" },
-    { name: "Association for Development and Research in Socio Economics Activities (ADARSA)", src: "/images/OIP.jpg" },
-   
-  ];
-  
 
   const organizingCommittee = {
     patrons: [
@@ -169,7 +139,7 @@ const GuestDelegates = () => {
         designation: "Chief Mentor, Trident Group of Institutions",
       },
     ],
-    conveners: [
+    advisors: [
       {
         image: "/images/convener1.jpg",
         name: "Prof. Dr. D N Pattanayak",
@@ -177,21 +147,17 @@ const GuestDelegates = () => {
       },
       {
         image: "/images/convener2.png",
-        name: "Prof. P. K. Mohanty",
-        designation: "Dean, Business Administration",
+        name: "Prof.  Abhaya Kumar Samal",
+        designation: "Dean, School of Computing, Trident Academy of Technology",
       },
     ],
-    coordinators: [
+    conveners: [
       {
         image: "/images/coordinator1.jpg",
-        name: "Dr. Nargis Begum",
-        designation: "HOD, Dept. of Business Administration",
+        name: "Dr. Sakuntala Mahapatra",
+        designation: "Dean, School of Engineering and Dean (R & D),Trident Academy of Technology",
       },
-      {
-        image: "/images/coordinator2.jpg",
-        name: "Dr. Diptimayee Sahoo",
-        designation: "Asso. Prof., Dept. of Business Administration",
-      },
+      
     ],
   };
 
@@ -199,7 +165,7 @@ const GuestDelegates = () => {
     <div id="panelists" className="container mx-auto p-6 space-y-12">
       {/* Panelists Section */}
       <section className="text-center">
-        <h2 className="text-3xl font-bold mb-6 text-[#316b9e]">Panelists</h2>
+        <h2 className="text-3xl font-bold mb-6 text-[#316b9e] font-serif">Panelists</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {panelists.map((panelist, index) => (
             <div key={index} className="text-center">
@@ -208,37 +174,17 @@ const GuestDelegates = () => {
                 alt={panelist.name}
                 className="w-32 h-32 object-cover rounded-full mx-auto mb-4 shadow-md"
               />
-              <h3 className="font-semibold">{panelist.name}</h3>
-              <p className="text-sm text-gray-600">{panelist.designation}</p>
+              <h3 className="font-semibold font-serif">{panelist.name}</h3>
+              <p className="text-sm text-gray-600 font-serif">{panelist.designation}</p>
             </div>
           ))}
         </div>
       </section>
 
-
-  {/* NGO Images Section */}
-<section className="text-center">
-  <h2 className="text-3xl font-bold mb-6 text-[#316b9e]">NGOs</h2>
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-  {ngos.map((ngo, index) => (
-    <div key={index} className="flex flex-col items-center">
-      <img
-        src={ngo.src}
-        alt={ngo.name}
-        className="w-full max-w-[150px] h-auto max-h-[150px] object-contain rounded-md"
-      />
-      <p className="mt-2 text-center text-sm font-medium">{ngo.name}</p>
-    </div>
-  ))}
-</div>
-
-</section>
-
-
       {/* Organizing Committee Section with background color and margin from top */}
       <div className="container mx-auto p-6 space-y-12 bg-[#f0f8ff] mt-12">
         <section className="text-center py-12">
-          <h2 className="text-3xl font-bold mb-10 text-[#316b9e]">Organizing Committee</h2>
+          <h2 className="text-3xl font-bold mb-10 text-[#316b9e] font-serif">Organizing Committee</h2>
 
           <div className="flex flex-col items-center space-y-10">
             {/* Patrons */}
@@ -253,8 +199,8 @@ const GuestDelegates = () => {
                         alt={member.name}
                         className="w-32 h-32 object-cover rounded-full mx-auto mb-2 shadow-md"
                       />
-                      <h3 className="font-semibold">{member.name}</h3>
-                      <p className="text-sm text-gray-600">{member.designation}</p>
+                      <h3 className="font-semibold font-serif">{member.name}</h3>
+                      <p className="text-sm text-gray-600 font-serif">{member.designation}</p>
                     </div>
                   ))}
                 </div>
@@ -265,7 +211,7 @@ const GuestDelegates = () => {
             {/* Conveners */}
             {organizingCommittee.conveners && (
               <div className="w-full">
-                <h3 className="text-2xl font-semibold mb-6">Conveners</h3>
+                <h3 className="text-2xl font-semibold mb-6 font-serif">Conveners</h3>
                 <div className="flex flex-wrap justify-center gap-8">
                   {organizingCommittee.conveners.map((member, idx) => (
                     <div key={idx} className="text-center">
@@ -274,8 +220,8 @@ const GuestDelegates = () => {
                         alt={member.name}
                         className="w-32 h-32 object-cover rounded-full mx-auto mb-2 shadow-md"
                       />
-                      <h3 className="font-semibold">{member.name}</h3>
-                      <p className="text-sm text-gray-600">{member.designation}</p>
+                      <h3 className="font-semibold font-serif">{member.name}</h3>
+                      <p className="text-sm text-gray-600 font-serif">{member.designation}</p>
                     </div>
                   ))}
                 </div>
@@ -283,19 +229,19 @@ const GuestDelegates = () => {
             )}
 
             {/* Coordinators */}
-            {organizingCommittee.coordinators && (
+            {organizingCommittee.advisors && (
               <div className="w-full">
-                <h3 className="text-2xl font-semibold mb-6">Coordinators</h3>
+                <h3 className="text-2xl font-semibold mb-6">advisors</h3>
                 <div className="flex flex-wrap justify-center gap-8">
-                  {organizingCommittee.coordinators.map((member, idx) => (
+                  {organizingCommittee.advisors.map((member, idx) => (
                     <div key={idx} className="text-center">
                       <img
                         src={member.image}
                         alt={member.name}
                         className="w-32 h-32 object-cover rounded-full mx-auto mb-2 shadow-md"
                       />
-                      <h3 className="font-semibold">{member.name}</h3>
-                      <p className="text-sm text-gray-600">{member.designation}</p>
+                      <h3 className="font-semibold font-serif">{member.name}</h3>
+                      <p className="text-sm text-gray-600 font-serif">{member.designation}</p>
                     </div>
                   ))}
                 </div>

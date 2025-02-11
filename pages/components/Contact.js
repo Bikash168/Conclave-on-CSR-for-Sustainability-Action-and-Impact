@@ -2,21 +2,19 @@ import React from "react";
 import Link from "next/link";
 import {
   FaFacebook,
-  FaTwitter,
   FaInstagram,
   FaLinkedin,
   FaYoutube,
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaWhatsapp,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 bg-gradient-to-b from-blue-50 to-gray-100">
+    <section id="contact" className="py-16 bg-gradient-to-b from-blue-50 to-gray-100 font-poppins">
       <div className="max-w-6xl mx-auto text-center px-6">
         <motion.img
           src="/logo.png"
@@ -28,7 +26,7 @@ const Contact = () => {
         />
 
         <motion.h3
-          className="text-3xl md:text-4xl font-semibold text-gray-700 mb-8"
+          className="text-3xl md:text-4xl font-semibold text-gray-700 mb-8 font-serif"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
@@ -37,7 +35,7 @@ const Contact = () => {
         </motion.h3>
 
         <motion.h2
-          className="text-4xl md:text-5xl font-bold mb-4 text-[#316b9e] hover:text-blue-700 transition-all duration-300"
+          className="text-4xl md:text-5xl font-bold mb-4 text-[#316b9e] hover:text-blue-700 transition-all duration-300 font-serif"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
@@ -70,13 +68,11 @@ const Contact = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center font-serif">
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Contact Information</h3>
             <p className="text-gray-700">
-              <FaPhoneAlt className="inline-block text-blue-600 mr-2" /> Dr. Nargis Begum: +91-9437300099
-            </p>
-            <p className="text-gray-700">
-              <FaPhoneAlt className="inline-block text-blue-600 mr-2" /> Dr. Diptimayee Sahoo: +91-9438331744
+              <FaPhoneAlt className="inline-block text-blue-600 mr-2" /> Dr. Sakuntala Mahapatra :
+              7873457476
             </p>
             <p className="text-gray-700">
               <FaEnvelope className="inline-block text-blue-600 mr-2" />
@@ -84,15 +80,14 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center font-serif">
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Address</h3>
             <p className="text-gray-700">
               <FaMapMarkerAlt className="inline-block text-blue-600 mr-2" />
-              <span>Trident Academy of Technology</span><br></br>
-              F-2, Chandaka Industrial Estate
-              In front of Infocity, Infocity
-              Chandrasekharpur, Bhubaneshwar
-              Odisha - 751024
+              <span>Trident Academy of Technology</span><br />
+              F-2, Chandaka Industrial Estate, <br />
+              In front of Infocity, Chandrasekharpur, <br />
+              Bhubaneswar, Odisha - 751024
             </p>
             <a
               href="https://www.tat.ac.in"
@@ -103,7 +98,8 @@ const Contact = () => {
               www.tat.ac.in
             </a>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center">
+
+          <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 text-center font-serif">
             <h3 className="text-2xl font-semibold text-[#316b9e] mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-6 p-6">
               {[
@@ -125,13 +121,11 @@ const Contact = () => {
               ))}
             </div>
           </div>
-
         </motion.div>
-
-
       </div>
+
       {/* Footer */}
-      <footer className="bg-[#316b9e] text-white text-center py-4 mt-12">
+      <footer className="bg-[#316b9e] text-white text-center py-4 mt-12 font-serif">
         <p>© {new Date().getFullYear()} Trident Group of Institutions. All rights reserved.</p>
       </footer>
     </section>
