@@ -155,7 +155,7 @@ const GuestDelegates = () => {
       {
         image: "/images/coordinator1.jpg",
         name: "Dr. Sakuntala Mahapatra",
-        designation: "Dean, School of Engineering and Dean (R & D),Trident Academy of Technology",
+        designation: "Dean, School of Engineering and Dean (R & D),Trident Academy of Technology.",
       },
       
     ],
