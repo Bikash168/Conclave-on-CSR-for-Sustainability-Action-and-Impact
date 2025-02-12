@@ -41,12 +41,7 @@ const EventBanner = () => {
           />
         </div>
 
-        {/* Registration Link */}
-        <Link href="https://forms.gle/YCkAm4XtJDdSqqAD7" passHref>
-          <button className="px-6 py-2 sm:px-8 sm:py-3 bg-[#316b9e] text-white text-base sm:text-lg font-semibold rounded-full hover:bg-[#214e70] transition-all duration-300 font-serif">
-            Register Now
-          </button>
-        </Link>
+      
       </div>
     </div>
   );
