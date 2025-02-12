@@ -146,7 +146,7 @@ const GuestDelegates = () => {
         designation: "Principal, Trident Academy of Technology",
       },
       {
-        image: "/images/convener2.png",
+        image: "/images/convener2.jpg",
         name: "Prof.  Abhaya Kumar Samal",
         designation: "Dean, School of Computing, Trident Academy of Technology",
       },
