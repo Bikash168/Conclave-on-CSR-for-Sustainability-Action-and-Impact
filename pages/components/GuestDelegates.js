@@ -211,7 +211,7 @@ const GuestDelegates = () => {
             {/* Conveners */}
             {organizingCommittee.conveners && (
               <div className="w-full">
-                <h3 className="text-2xl font-semibold mb-6 font-serif">Conveners</h3>
+                <h3 className="text-2xl font-semibold mb-6 font-serif">Convener</h3>
                 <div className="flex flex-wrap justify-center gap-8">
                   {organizingCommittee.conveners.map((member, idx) => (
                     <div key={idx} className="text-center">
