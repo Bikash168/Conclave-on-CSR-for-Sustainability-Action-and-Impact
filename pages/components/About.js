@@ -35,7 +35,7 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-8 md:gap-12 items-center">
                     <div>
                         <h2 className="text-3xl md:text-4xl font-extrabold text-[#316b9e] mb-6">
-                            About the Driving Force of Technological Revolution
+                            About the Driving Force of Technological 
                         </h2>
                         <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                             The convergence of Energy, Semiconductors, Cybersecurity, and Artificial Intelligence (AI) is driving a technological revolution with profound global implications. The energy sector is rapidly evolving with advancements in renewable sources, battery storage, and smart grids, ensuring sustainable and efficient power distribution. Semiconductors, the backbone of modern electronics, are crucial for developing high-performance computing, AI applications, and next-generation communication networks.
