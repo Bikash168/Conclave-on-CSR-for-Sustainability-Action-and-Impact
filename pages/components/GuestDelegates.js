@@ -231,7 +231,7 @@ const GuestDelegates = () => {
             {/* Coordinators */}
             {organizingCommittee.advisors && (
               <div className="w-full">
-                <h3 className="text-2xl font-semibold mb-6">advisors</h3>
+                <h3 className="text-2xl font-semibold mb-6">Advisors</h3>
                 <div className="flex flex-wrap justify-center gap-8">
                   {organizingCommittee.advisors.map((member, idx) => (
                     <div key={idx} className="text-center">
