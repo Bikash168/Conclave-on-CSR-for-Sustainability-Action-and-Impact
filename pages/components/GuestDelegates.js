@@ -4,8 +4,8 @@ const GuestDelegates = () => {
   const panelists = [
     {
       image: "/images/panelist26.jpg",
-      name: "Shri. Manas Ranjan Panda",
-      designation: "Special Secretary to Government, E&IT Department,Government of Odisha & Managing Director OCAC",
+      name: "Prof.(Dr.) Ashish Ghosh",
+      designation: "Director, IIIT, Bhubaneswar",
     },
     {
       image: "/images/panelist15.jpg",
