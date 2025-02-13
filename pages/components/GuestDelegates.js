@@ -3,6 +3,11 @@ import React from "react";
 const GuestDelegates = () => {
   const panelists = [
     {
+      image: "/images/panelist26.jpg",
+      name: "Shri. Manas Ranjan Panda",
+      designation: "Special Secretary to Government, E&IT Department,Government of Odisha & Managing Director OCAC",
+    },
+    {
       image: "/images/panelist15.jpg",
       name: "Mr. Subhadarshi Mishra",
       designation: "Managing Director, SPARC",
