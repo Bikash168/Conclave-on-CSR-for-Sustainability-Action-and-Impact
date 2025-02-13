@@ -113,8 +113,8 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist13.jpg",
-      name: "Mr. Pradip Thaker",
-      designation: "Country Head & VP, D-Matrix",
+      name: "Mr. Somen Das",
+      designation: "Associate Director, Accenture",
     },
      
     {
