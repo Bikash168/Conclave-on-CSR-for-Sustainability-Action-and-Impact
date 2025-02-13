@@ -199,7 +199,7 @@ const GuestDelegates = () => {
 
   return (
     <div id="panelists" className="container mx-auto p-6 space-y-12">
-      <h2 className="text-3xl font-bold  text-center text-[#316b9e] mb-10">Our Esteemed Panelists</h2>
+      <h2 className="text-3xl font-extrabold  text-center text-[#316b9e] mb-10">Our Esteemed Panelists</h2>
       {/* Chief Guest Section */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Chief Guest</h2>
