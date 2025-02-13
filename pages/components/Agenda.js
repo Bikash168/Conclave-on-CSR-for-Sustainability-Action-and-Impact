@@ -20,7 +20,7 @@ const Agenda = () => {
                         14th & 15th February 2025
                     </p>
                     <p className="text-lg md:text-xl text-gray-700 mt-2 font-medium">
-                        In Collaboration with <span className="font-bold text-[#316b9e]">SACRED Foundation</span>
+                        In Collaboration with <span className="font-bold text-[#316b9e]">ARF Design, VLSI Society of India, IEEE student chapter, SACRED FOUNDATION and ThreatSys & SPARC (P) Ltd.</span>
                     </p>
                 </div>
 
