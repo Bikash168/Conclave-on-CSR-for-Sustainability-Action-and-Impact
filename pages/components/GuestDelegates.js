@@ -12,11 +12,7 @@ const GuestDelegates = () => {
       name: "Mr. Subhadarshi Mishra",
       designation: "Managing Director, SPARC",
     },
-    {
-      image: "/images/panelist1.jpg",
-      name: "Mr. Anil Kumar Muniswamy",
-      designation: "Founding Director, SLN Technologies",
-    },
+ 
     {
       image: "/images/panelist2.jpg",
       name: "Prof. Samrat L. Sabat",
@@ -34,8 +30,8 @@ const GuestDelegates = () => {
     },
     {
       image: "/images/panelist5.jpg",
-      name: "Mr. B. B. Mehta",
-      designation: "Director (SLDC and Projects), OPTCL",
+      name: "Mr. Omkarnath Suprabhat Rath",
+      designation: "Chief Operation Officer - Assam Startup, Ex PD-MeitY, Govt. of India",
     },
     {
       image: "/images/panelist6.jpg",
