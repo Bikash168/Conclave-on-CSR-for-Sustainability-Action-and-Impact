@@ -11,9 +11,16 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist30.jpg",
       name: "Dr. Namrata Misra",
-      designation: "CEO, Bhubaneswar City Knowledge Innovation Cluster Foundation (BCKIC)",
+      designation: (
+        <>
+          CEO, Bhubaneswar City Knowledge 
+          <br />
+          Innovation Cluster Foundation (BCKIC)
+        </>
+      ),
       category: "Guest of Honour",
     },
+    
     {
       image: "/images/panelist15.jpg",
       name: "Mr. Subhadarshi Mishra",
