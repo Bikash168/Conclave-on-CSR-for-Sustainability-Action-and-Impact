@@ -70,15 +70,16 @@ const GuestDelegates = () => {
       designation: "CEO, White Shark Energy Pvt. Ltd, Odisha",
     },
     {
-      image: "/images/panelist13.jpg",
-      name: "Mr. Pradip Thaker",
-      designation: "Country Head & VP, D-Matrix",
-    },
-    {
       image: "/images/panelist14.png",
       name: "Mr. P.K. Parida",
       designation: "Retired Senior Scientist, Odisha Space Application Center",
     },
+    {
+      image: "/images/panelist13.jpg",
+      name: "Mr. Pradip Thaker",
+      designation: "Country Head & VP, D-Matrix",
+    },
+   
   
     {
       image: "/images/panelist16.jpg",
