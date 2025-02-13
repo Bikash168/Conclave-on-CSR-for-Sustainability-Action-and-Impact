@@ -91,6 +91,11 @@ const GuestDelegates = () => {
       designation: "School of Earth, Ocean, and Climate Sciences, IIT Bhubaneswar",
     },
     {
+      image: "/images/panelist19.jpg",
+      name: "Mr. Bodhisattwa Sanghapriya",
+      designation: "Founder & CEO, IG Drones",
+    },
+    {
       image: "/images/panelist13.jpg",
       name: "Mr. Pradip Thaker",
       designation: "Country Head & VP, D-Matrix",
@@ -103,11 +108,7 @@ const GuestDelegates = () => {
       designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
     },
   
-    {
-      image: "/images/panelist19.jpg",
-      name: "Mr. Bodhisattwa Sanghapriya",
-      designation: "Founder & CEO, IG Drones",
-    },
+    
     {
       image: "/images/panelist20.jpg",
       name: "Mr. Deepak Kumar Nath",
