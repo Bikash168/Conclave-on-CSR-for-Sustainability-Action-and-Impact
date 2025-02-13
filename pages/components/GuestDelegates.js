@@ -39,7 +39,7 @@ const GuestDelegates = () => {
       designation: "CEO, RFIC Technologies, Bangalore",
     },
     {
-      image: "/images/panelist7.jpeg",
+      image: "/images/panelist7.jpg",
       name: "Mr. B. B. Mehta",
       designation: "Director (SLDC and Projects), OPTCL",
     },
