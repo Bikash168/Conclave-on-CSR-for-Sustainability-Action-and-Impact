@@ -3,6 +3,11 @@ import React from "react";
 const GuestDelegates = () => {
   const panelists = [
     {
+      image: "/images/panelist15.jpg",
+      name: "Mr. Subhadarshi Mishra",
+      designation: "Managing Director, SPARC",
+    },
+    {
       image: "/images/panelist1.jpg",
       name: "Mr. Anil Kumar Muniswamy",
       designation: "Founding Director, SLN Technologies",
@@ -72,11 +77,7 @@ const GuestDelegates = () => {
       name: "Mr. P.K. Parida",
       designation: "Retired Senior Scientist, Odisha Space Application Center",
     },
-    {
-      image: "/images/panelist15.jpg",
-      name: "Mr. Subhadarshi Mishra",
-      designation: "Managing Director, SPARC",
-    },
+  
     {
       image: "/images/panelist16.jpg",
       name: "Dr. Krushna Chandra Gouda",

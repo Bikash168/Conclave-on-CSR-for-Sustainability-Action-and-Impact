@@ -76,7 +76,7 @@ const Contact = () => {
             </p>
             <p className="text-gray-700">
               <FaEnvelope className="inline-block text-blue-600 mr-2" />
-              info@tat.ac.in
+              deansoe@tat.ac.in
             </p>
           </div>
 
