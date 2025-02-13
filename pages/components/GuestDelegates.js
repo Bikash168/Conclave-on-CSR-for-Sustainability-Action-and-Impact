@@ -96,6 +96,11 @@ const GuestDelegates = () => {
       designation: "Founder & CEO, IG Drones",
     },
     {
+      image: "/images/panelist21.jpg",
+      name: "Dr. Rabindra Narayan Behera",
+      designation: "Member of Parliament, Jajpur, Odisha; Standing Committee Member of Communications and IT",
+    },
+    {
       image: "/images/panelist13.jpg",
       name: "Mr. Pradip Thaker",
       designation: "Country Head & VP, D-Matrix",
@@ -114,11 +119,7 @@ const GuestDelegates = () => {
       name: "Mr. Deepak Kumar Nath",
       designation: "CEO & Founder, Threatsys Technologies",
     },
-    {
-      image: "/images/panelist21.jpg",
-      name: "Dr. Rabindra Narayan Behera",
-      designation: "Member of Parliament, Jajpur, Odisha; Standing Committee Member of Communications and IT",
-    },
+   
     {
       image: "/images/panelist22.jpg",
       name: "Mr. Niladri Bihari Mohanty",
