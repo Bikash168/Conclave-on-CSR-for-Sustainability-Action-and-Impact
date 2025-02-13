@@ -49,12 +49,7 @@ const GuestDelegates = () => {
       designation: "CEO, TP Renewable Microgrid Ltd., Delhi",
     },
     
-    {
-      image: "/images/panelist8.png",
-      name: "Mr. Soumyaranjan Aich",
-      designation: "Director Technical, OREDA",
-    },
-    {
+       {
       image: "/images/panelist9.jpg",
       name: "Mr. Mahesh Dash",
       designation: "Chief Project Manager, RE-GRIDCO Ltd, Odisha",
