@@ -265,6 +265,25 @@ const GuestDelegates = () => {
               </div>
             ))}
           </div>
+   {/* Conveners */}
+   {organizingCommittee.conveners && (
+              <div className="w-full">
+                <h3 className="text-2xl font-semibold mb-6 font-serif">Convener</h3>
+                <div className="flex flex-wrap justify-center gap-8">
+                  {organizingCommittee.conveners.map((member, idx) => (
+                    <div key={idx} className="text-center">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-32 h-32 object-cover rounded-full mx-auto mb-2 shadow-md"
+                      />
+                      <h3 className="font-semibold font-serif">{member.name}</h3>
+                      <p className="text-sm text-gray-600 font-serif">{member.designation}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
           {/* Advisors Section */}
           <h3 className="text-2xl font-semibold mt-10 mb-6">Advisors</h3>
