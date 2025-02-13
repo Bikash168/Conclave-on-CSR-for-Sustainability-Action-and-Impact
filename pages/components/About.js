@@ -54,13 +54,13 @@ const About = () => {
                         About the Conclave
                     </h2>
                     <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
-                        The institute is hosting **ESCA-2025**, a National Conclave on Energy, Semiconductors, Cybersecurity, and Artificial Intelligence, scheduled for **14th-15th February 2025**. This prestigious event will bring together policymakers, industry leaders, and academic experts to explore recent trends and advancements in these transformative fields. 
+                    The institute is hosting ESCA-2025, a National Conclave on Energy, Semiconductors, Cybersecurity, and Artificial Intelligence, scheduled for 14th-15th February 2025. This prestigious event will bring together policymakers, industry leaders, and academic experts to explore recent trends and advancements in these transformative fields. 
                     </p>
                     <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
-                        Through four focused panel sessions, participants will engage in insightful discussions on leveraging these technologies to drive sustainable human development. ESCA-2025 aims to foster collaboration, innovation, and actionable strategies to address pressing challenges and opportunities, ensuring a brighter future through the integration of cutting-edge solutions for societal and economic progress.
+                    Through four focused panel sessions, participants will engage with eminent panelists in insightful discussions on leveraging these technologies to drive sustainable human development. ESCA-2025 aims to foster collaboration, innovation, and actionable strategies to address pressing challenges and opportunities, ensuring a brighter future for the stakeholders through the integration of cutting-edge solutions for societal and economic progress. 
                     </p>
                     <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
-                        This conclave is organized in partnership with **ARF Design, VLSI Society of India, SACRED Foundation, and ThreatSys**.
+                    This conclave is organized by TAT in partnership with ARF Design, VLSI Society of India, IEEE student chapter, SACRED FOUNDATION and ThreatSys & SPARC (P) Ltd..
                     </p>
 
                     {/* Image */}
