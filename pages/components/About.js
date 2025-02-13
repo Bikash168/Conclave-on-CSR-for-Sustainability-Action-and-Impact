@@ -18,13 +18,13 @@ const About = () => {
                             About Us
                         </h2>
                         <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                            Trident Academy of Technology, established in 2005, has emerged as a premier institution offering UG, PG, and Ph.D. programs across diverse domains such as Engineering, Management, Biotechnology, Computer Applications, Public Health, Environmental Science, and Social Welfare. The institute is distinguished by its quality accreditations from NBA, NAAC, and DSIR (DST), Government of India.
+                        Trident Academy of Technology (TAT), established in 2005, has emerged as a premier institution offering UG, PG, and Ph.D. programs across diverse domains such as Engineering, Management, Biotechnology, Computer Applications, Public Health, Environmental Science, and Social Welfare. The institute is distinguished by its quality accreditations from NBA, NAAC, and DSIR (DST), Government of India.
                         </p>
                         <p className="text-base md:text-lg text-gray-700 leading-relaxed mt-4">
-                            The Trident School of Engineering offers six undergraduate programs in ETC, EEE, Mechanical, Civil, Biotechnology, and Electronics (VLSI Design), along with postgraduate programs in ETC and VLSI Design. Complementing this, the Trident School of Computing provides five cutting-edge undergraduate programs in CSE, CST, CS-AI-ML, CSIT, and CSDS, and postgraduate programs in CSE and CS-AIML.
+                        The School of Engineering of TAT offers six undergraduate programs in ETC, EEE, Mechanical, Civil, Biotechnology, and Electronics (VLSI Design), along with postgraduate programs in ETC and VLSI Design. Complementing this, the School of Computing of TAT provides five cutting-edge undergraduate programs in CSE, CST, CS-AI-ML, CSIT, and Data Science, and postgraduate programs in CSE and CS-AIML.
                         </p>
                         <p className="text-base md:text-lg text-gray-700 leading-relaxed mt-4">
-                            With a steadfast commitment to excellence, the institute focuses on fostering innovation, research, and skill development to empower students for global competitiveness in emerging technologies and multidisciplinary areas. Its industry-aligned curriculum, state-of-the-art infrastructure, and strong academic ethos ensure holistic development, making it a hub for future leaders and innovators.
+                        With a steadfast commitment to excellence, the institute focuses on fostering innovation, research, and skill development to empower students for global competitiveness in emerging technologies and multidisciplinary areas. Its industry-aligned co-curricular focus, state-of-the-art infrastructure, and strong academic ethos ensure holistic development, making it a hub for future leaders and innovators.
                         </p>
                     </div>
                 </div>
