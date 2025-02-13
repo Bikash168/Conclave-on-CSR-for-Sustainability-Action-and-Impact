@@ -39,15 +39,16 @@ const GuestDelegates = () => {
       designation: "CEO, RFIC Technologies, Bangalore",
     },
     {
+      image: "/images/panelist7.jpeg",
+      name: "Mr. B. B. Mehta",
+      designation: "Director (SLDC and Projects), OPTCL",
+    },
+    {
       image: "/images/panelist6.jpg",
       name: "Mr. Manoj Gupta",
       designation: "CEO, TP Renewable Microgrid Ltd., Delhi",
     },
-    {
-      image: "/images/panelist7.jpeg",
-      name: "Mr. Asok K. Choudhury",
-      designation: "Consultant-Renewables, TPCODL",
-    },
+    
     {
       image: "/images/panelist8.png",
       name: "Mr. Soumyaranjan Aich",
