@@ -101,40 +101,35 @@ const GuestDelegates = () => {
       designation: "Member of Parliament, Jajpur, Odisha; Standing Committee Member of Communications and IT",
     },
     {
-      image: "/images/panelist13.jpg",
-      name: "Mr. Pradip Thaker",
-      designation: "Country Head & VP, D-Matrix",
-    },
-   
-  
-    {
-      image: "/images/panelist17.png",
-      name: "Dr. Gynendranath Mohapatra",
-      designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
-    },
-  
-    
-    {
-      image: "/images/panelist20.jpg",
-      name: "Mr. Deepak Kumar Nath",
-      designation: "CEO & Founder, Threatsys Technologies",
-    },
-   
-    {
       image: "/images/panelist22.jpg",
       name: "Mr. Niladri Bihari Mohanty",
       designation: "Scientist-D and Joint Director (IT), National Informatics Center",
     },
+      
     {
       image: "/images/panelist23.png",
       name: "Mr. Kali Prasad Sahani",
       designation: "Cyber Security Lead, VISA",
     },
     {
+      image: "/images/panelist13.jpg",
+      name: "Mr. Pradip Thaker",
+      designation: "Country Head & VP, D-Matrix",
+    },
+     
+    {
       image: "/images/panelist24.jpg",
       name: "Mr. Amit Kumar Das",
       designation: "Chief Information Officer, CSM Technologies Pvt Ltd",
     },
+    {
+      image: "/images/panelist20.jpg",
+      name: "Mr. Deepak Kumar Nath",
+      designation: "CEO & Founder, Threatsys Technologies",
+    },
+   
+ 
+  
 
   ];
 
