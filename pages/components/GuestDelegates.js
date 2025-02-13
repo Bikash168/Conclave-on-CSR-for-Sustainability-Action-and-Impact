@@ -34,6 +34,11 @@ const GuestDelegates = () => {
       designation: "Chief Operation Officer - Assam Startup, Ex PD-MeitY, Govt. of India",
     },
     {
+      image: "/images/panelist27.jpg",
+      name: "Mr. Suchitav Khadanga",
+      designation: "CEO, RFIC Technologies, Bangalore",
+    },
+    {
       image: "/images/panelist6.jpg",
       name: "Mr. Manoj Gupta",
       designation: "CEO, TP Renewable Microgrid Ltd., Delhi",
