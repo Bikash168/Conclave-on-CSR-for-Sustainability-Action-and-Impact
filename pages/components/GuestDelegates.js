@@ -46,7 +46,7 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist6.jpg",
       name: "Mr. Manoj Gupta",
-      designation: "CEO, TP Renewable Microgrid Ltd., Delhi",
+      designation: "CEO, TP Renewable Microgrid Ltd., Mumbai",
     },
     
        {
@@ -74,6 +74,17 @@ const GuestDelegates = () => {
       name: "Mr. P.K. Parida",
       designation: "Retired Senior Scientist, Odisha Space Application Center",
     },
+    
+    {
+      image: "/images/panelist16.jpg",
+      name: "Mr. Krishnendu Dasgupta",
+      designation: "Head (Emerging Tech & Innovation), SP",
+    },
+    {
+      image: "/images/panelist16.jpg",
+      name: "Dr. Krushna Chandra Gouda",
+      designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
+    },
     {
       image: "/images/panelist13.jpg",
       name: "Mr. Pradip Thaker",
@@ -81,11 +92,6 @@ const GuestDelegates = () => {
     },
    
   
-    {
-      image: "/images/panelist16.jpg",
-      name: "Dr. Krushna Chandra Gouda",
-      designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
-    },
     {
       image: "/images/panelist17.png",
       name: "Dr. Gynendranath Mohapatra",
