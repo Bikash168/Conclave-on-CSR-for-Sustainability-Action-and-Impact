@@ -95,7 +95,7 @@ const GuestDelegates = () => {
       category: "Panelist"
     },
     {
-      image: "/images/panelist14.png",
+      image: "/images/panelist14.jpg",
       name: "Mr. P.K. Parida",
       designation: "Retired Senior Scientist, Odisha Space Application Center",
       category: "Panelist"
