@@ -76,7 +76,7 @@ const GuestDelegates = () => {
     },
     
     {
-      image: "/images/panelist16.jpg",
+      image: "/images/panelist28.jpg",
       name: "Mr. Krishnendu Dasgupta",
       designation: "Head (Emerging Tech & Innovation), SPARC Pvt Ltd",
     },
@@ -84,6 +84,11 @@ const GuestDelegates = () => {
       image: "/images/panelist16.jpg",
       name: "Dr. Krushna Chandra Gouda",
       designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
+    },
+    {
+      image: "/images/panelist18.png",
+      name: "Dr. Debadatta Swain",
+      designation: "School of Earth, Ocean, and Climate Sciences, IIT Bhubaneswar",
     },
     {
       image: "/images/panelist13.jpg",
@@ -97,11 +102,7 @@ const GuestDelegates = () => {
       name: "Dr. Gynendranath Mohapatra",
       designation: "Senior Principal Scientist, CSIR Fourth Paradigm Institute",
     },
-    {
-      image: "/images/panelist18.png",
-      name: "Dr. Debadatta Swain",
-      designation: "School of Earth, Ocean, and Climate Sciences, IIT Bhubaneswar",
-    },
+  
     {
       image: "/images/panelist19.jpg",
       name: "Mr. Bodhisattwa Sanghapriya",
