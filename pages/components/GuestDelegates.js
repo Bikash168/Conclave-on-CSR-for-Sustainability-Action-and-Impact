@@ -78,7 +78,7 @@ const GuestDelegates = () => {
     {
       image: "/images/panelist16.jpg",
       name: "Mr. Krishnendu Dasgupta",
-      designation: "Head (Emerging Tech & Innovation), SP",
+      designation: "Head (Emerging Tech & Innovation), SPARC Pvt Ltd",
     },
     {
       image: "/images/panelist16.jpg",
